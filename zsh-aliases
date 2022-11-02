@@ -1,0 +1,58 @@
+#!/bin/sh
+alias vi='nvim'
+alias g='lazygit'
+alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
+alias nvimrc='nvim ~/.config/nvim/'
+alias notes='nvim ~/Nextcloud/Notes/'
+
+# Colorize grep output (good for log files)
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+# confirm before overwriting something
+alias cp="cp -i"
+alias mv='mv -i'
+
+# easier to read disk
+alias df='df -h'     # human-readable sizes
+alias free='free -m' # show sizes in MB
+
+# get top process eating memory
+alias psmem='ps auxf | sort -nr -k 4 | head -5'
+
+# get top process eating cpu ##
+alias pscpu='ps auxf | sort -nr -k 3 | head -5'
+
+# Better ls with colors
+if [ -x "$(command -v exa)" ]; then
+    alias ls="exa"
+    alias la="exa --long --all --group --header --accessed --icons --classify"
+    alias ll="exa --long --group --header --accessed --icons --classify"
+fi
+
+# Delete things to the trash
+if [ -x "$(command -v trash)" ]; then
+    alias dd="trash"
+    alias delete="trash"
+    alias rm="trash -i"
+fi
+
+# Aliases for random programs
+if [ -x "$(command -v thunderbird)" ]; then
+  alias thunderbird='nohup thunderbird > ~/.nohup_out &'
+fi
+
+# Do a search through history
+alias hg='history | grep'
+
+# Clear the terminal
+alias cl="clear"
+alias cln="clear && echo '' && neofetch"
+
+# Quick export of testamentto
+alias wp="code /var/www/contracts/"
+alias contracts="nvim /var/www/contracts/"
+alias zshrc="nvim ~/.config/zsh/"
+alias wp-contracts-prod="~/.jaredbs/wp-contracts-prod.sh"
+alias wp-alshaya-prod="~/.jaredbs/wp-alshaya-prod.sh"
