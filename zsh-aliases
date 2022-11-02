@@ -4,6 +4,14 @@ alias g='lazygit'
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias nvimrc='nvim ~/.config/nvim/'
 alias notes='nvim ~/Nextcloud/Notes/'
+alias zshrc='nvim ~/.config/zsh/'
+alias blog='nvim ~/Website_Projects/jaredsblog/jaredsblog/'
+alias django='source ~/Website_Projects/jaredsblog/jareds-venv/bin/activate'
+
+
+
+
+
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
@@ -43,8 +51,15 @@ if [ -x "$(command -v thunderbird)" ]; then
   alias thunderbird='nohup thunderbird > ~/.nohup_out &'
 fi
 
+
+# FZF aliases
+alias fzff='fd --type f --strip-cwd-prefix --hidden --exclude .git | fzf'
+alias fzfd='fd --type d --strip-cwd-prefix --hidden --exclude .git | fzf'
+
+
 # Do a search through history
-alias hg='history | grep'
+alias hg='history | fzf'
+=
 
 # Clear the terminal
 alias cl="clear"

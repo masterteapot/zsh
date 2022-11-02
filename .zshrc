@@ -36,6 +36,7 @@ source "$ZDOTDIR/zsh-functions"
 zsh_add_file "extract-music.sh"
 zsh_add_file "add-pic-size.sh"
 zsh_add_file "ddg.sh"
+zsh_add_file "fzf_custom.sh"
 
 # Normal files to source
 zsh_add_file "zsh-exports"
@@ -65,6 +66,11 @@ bindkey "^k" up-line-or-beginning-search # Up
 bindkey "^j" down-line-or-beginning-search # Down
 bindkey -r "^u"
 bindkey -r "^d"
+bindkey -s '^f' 'fzf_open^M'
+bindkey -s '^d' 'fzf_cd^M'
+bindkey -s '^y' 'fzf_yay^M'
+
+
 
 # FZF 
 # TODO update for mac
