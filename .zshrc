@@ -1,6 +1,8 @@
 #!/bin/sh
 export ZDOTDIR=$HOME/.config/zsh
 export HISTFILE="$ZDOTDIR/.zsh_history"
+export PATH="$PATH:/home/jared/.local/share/nvim/lsp_servers"
+
 setopt appendhistory
 
 # some useful options (man zshoptions)

@@ -6,7 +6,7 @@ alias nvimrc='nvim ~/.config/nvim/'
 alias notes='nvim ~/Nextcloud/Notes/'
 alias zshrc='nvim ~/.config/zsh/'
 alias blog='cd ~/Website_Projects/jaredsblog/jaredsblog/'
-alias django='source ~/Website_Projects/jaredsblog/jareds-venv/bin/activate'
+alias django='source ~/.pyenv/django/bin/activate'
 
 
 # Colorize grep output (good for log files)
