@@ -9,10 +9,6 @@ alias blog='nvim ~/Website_Projects/jaredsblog/jaredsblog/'
 alias django='source ~/Website_Projects/jaredsblog/jareds-venv/bin/activate'
 
 
-
-
-
-
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
@@ -59,7 +55,7 @@ alias fzfd='fd --type d --strip-cwd-prefix --hidden --exclude .git | fzf'
 
 # Do a search through history
 alias hg='history | fzf'
-=
+
 
 # Clear the terminal
 alias cl="clear"
