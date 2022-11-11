@@ -23,10 +23,10 @@ alias df='df -h'     # human-readable sizes
 alias free='free -m' # show sizes in MB
 
 # get top process eating memory
-alias psmem='ps auxf | sort -nr -k 4 | head -5'
+alias psmem='ps auxf | sort -nr -k 4 | head -10'
 
 # get top process eating cpu ##
-alias pscpu='ps auxf | sort -nr -k 3 | head -5'
+alias pscpu='ps auxf | sort -nr -k 3 | head -10'
 
 # Better ls with colors
 if [ -x "$(command -v exa)" ]; then
@@ -49,15 +49,17 @@ fi
 
 
 # FZF aliases
-alias fzff='fdfind --type f --strip-cwd-prefix --hidden --exclude .git | fzf'
-alias fzfd='fdfind --type d --strip-cwd-prefix --hidden --exclude .git | fzf'
+alias fzff='print -z $(fdfind --type f --strip-cwd-prefix --hidden --exclude .git | fzf)'
+alias fzfd='cd "$(fdfind --type d --strip-cwd-prefix --hidden --exclude .git | fzf)"'
 
 # FD aliases
 alias fd="fdfind"
 
 
 # Do a search through history
-alias hg='sort ~/.config/zsh/.zsh_history | uniq -c | sort | fzf'
+alias hg='print -z $(sort ~/.config/zsh/.zsh_history | uniq -c | fzf +s --tac | sed -E "s/ *[0-9]*\*? *//")'
+
+# print -z $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac | sed -E 's/ *[0-9]*\*? *//' | sed -E 's/\\/\\\\/g')
 
 # Clear the terminal
 alias cl="clear"
