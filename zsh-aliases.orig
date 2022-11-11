@@ -5,14 +5,8 @@ alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git
 alias nvimrc='nvim ~/.config/nvim/'
 alias notes='nvim ~/Nextcloud/Notes/'
 alias zshrc='nvim ~/.config/zsh/'
-<<<<<<< HEAD
-alias blog='nvim ~/Website_Projects/jaredsblog/jaredsblog/'
-alias django='source ~/Website_Projects/jaredsblog/jareds-venv/bin/activate'
-=======
 alias blog='cd ~/Website_Projects/jaredsblog/jaredsblog/'
 alias django='source ~/.pyenv/django/bin/activate'
->>>>>>> d8e6e888049fce7ad8b3b3b23e711dd4a3b3ab5e
-
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
@@ -28,10 +22,10 @@ alias df='df -h'     # human-readable sizes
 alias free='free -m' # show sizes in MB
 
 # get top process eating memory
-alias psmem='ps auxf | sort -nr -k 4 | head -5'
+alias psmem='ps auxf | sort -nr -k 4 | head -10'
 
 # get top process eating cpu ##
-alias pscpu='ps auxf | sort -nr -k 3 | head -5'
+alias pscpu='ps auxf | sort -nr -k 3 | head -10'
 
 # Better ls with colors
 if [ -x "$(command -v exa)" ]; then
@@ -54,8 +48,8 @@ fi
 
 
 # FZF aliases
-alias fzff='fdfind --type f --strip-cwd-prefix --hidden --exclude .git | fzf'
-alias fzfd='fdfind --type d --strip-cwd-prefix --hidden --exclude .git | fzf'
+alias fzff='print -z $(fdfind --type f --strip-cwd-prefix --hidden --exclude .git | fzf)'
+alias fzfd='cd "$(fdfind --type d --strip-cwd-prefix --hidden --exclude .git | fzf)"'
 
 # FD aliases
 alias fd="fdfind"
@@ -63,11 +57,15 @@ alias fd="fdfind"
 
 # Do a search through history
 <<<<<<< HEAD
-alias hg='history | fzf'
+alias hg='print -z $(sort ~/.config/zsh/.zsh_history | uniq -c | fzf +s --tac | sed -E "s/ *[0-9]*\*? *//")'
 
-=======
+# print -z $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac | sed -E 's/ *[0-9]*\*? *//' | sed -E 's/\\/\\\\/g')
+||||||| d8e6e88
 alias hg='sort ~/.config/zsh/.zsh_history | uniq -c | sort | fzf'
->>>>>>> d8e6e888049fce7ad8b3b3b23e711dd4a3b3ab5e
+=======
+
+alias hg='sort ~/.config/zsh/.zsh_history | uniq -c | sort | fzf'
+>>>>>>> eeb5fc9fcd69cc14d15f04e2adc8ab365b540550
 
 # Clear the terminal
 alias cl="clear"

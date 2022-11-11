@@ -1636,7 +1636,6 @@ wp-prod
 sudo apt update
 sudo dpkg --add-architecture i386
 sudo apt install libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386
-wget -O ~/adobe.deb ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
 acroread
 sudo apt install libgdk_pixbuf_xlib-2.0.so.0
 sudo apt install libgtk2.0-0:i386
@@ -1924,41 +1923,13 @@ wget -o "front-cover.png" https://c4-static.dodax.com/v2/600-600-141475328_Xg5nX
 la
 wget -P "front-cover.png" https://c4-static.dodax.com/v2/600-600-141475328_Xg5nXJ-png
 wget -P "./front-cover.png" https://c4-static.dodax.com/v2/600-600-141475328_Xg5nXJ-png
-wget -O "./front-cover.png" https://c4-static.dodax.com/v2/600-600-141475328_Xg5nXJ-png
 z music
 z ~/Music
 la
 cd Thrice\ -\ To\ Be\ Everywhere\ is\ to\ Be\ Nowhere
-wget -O "./front-cover.png" https://c4-static.dodax.com/v2/600-600-141475328_Xg5nXJ-png
 z ~/Music
 la
 cd Starflyer\ 59\ -\ Gold
-wget -O "./front-cover.png" https://upload.wikimedia.org/wikipedia/en/6/6d/Gold%28album%29.jpg
-cd ..
-cd Starflyer\ 59\ -\ Old
-wget -O "./front-cover.png" https://upload.wikimedia.org/wikipedia/en/0/03/Old%28album%29.jpg
-cd ../Starflyer\ 59\ -\ Cant\ Stop\ Eating\ EP
-wget -O "./front-cover.png" https://en.wikipedia.org/wiki/Can%27t_Stop_Eating_\(EP\)\#/media/File:Can't_Stop_Eating.jpeg\
-\
-q
-wget -O "./front-cover.png" https://en.wikipedia.org/wiki/Can%27t_Stop_Eating_\(EP\)\#/media/File:Can\'t_Stop_Eating.jpeg\
-\
-q
-la
-rm front-cover.png
-wget -O "./front-cover.png" https://upload.wikimedia.org/wikipedia/en/7/7b/Can%27t_Stop_Eating.jpeg\
-\
-q
-cd ../Starflyer\ 59\ -\ Everybody\ Makes\ Mistakes
-wget -O "./front-cover.png" https://upload.wikimedia.org/wikipedia/en/d/d4/Everybodymakes.jpg
-cd ../Starflyer\ 59\ -\ Americana
-wget -O "./front-cover.png" https://upload.wikimedia.org/wikipedia/en/b/b0/Americana%28album%29.jpg
-cd ../Talk\ Talk\ -\ Laughing\ Stock
-wget -O "./front-cover.png" https://upload.wikimedia.org/wikipedia/en/b/bd/Laughing_stock.jpg
-wget -O "./front-cover.png" https://i.scdn.co/image/ab67616d0000b273e867954a7b1096b99f2b287b
-cd ../Talk\ Talk\ -\ Spirit\ Of\ Eden
-wget -O "./front-cover.png" https://i.scdn.co/image/ab67616d0000b273e867954a7b1096b99f2b287bhttps://media.pitchfork.com/photos/5c367245e019064439555e6e/1:1/w_450%2Cc_limit/spirit%2520of%2520eden_talk%2520talk.jpg
-wget -O "./front-cover.png" https://img.discogs.com/iIF82N3otO9JbPCFQ0ZCmDCyurs\=/fit-in/600x600/filters:strip_icc\(\):format\(jpeg\):mode_rgb\(\):quality\(90\)/discogs-images/R-8781512-1468655169-4141.jpeg.jpg
 hg nc
 ncdu
 bpytop
@@ -2038,29 +2009,18 @@ nala show
 nala show bpytop
 nala show coolero
 nala show pulseaudio
-wget -O "./front-cover.png" https://img.discogs.com/iIF82N3otO9JbPCFQ0ZCmDCyurs\=/fit-in/600x600/filters:strip_icc\(\):format\(jpeg\):mode_rgb\(\):quality\(90\)/discogs-images/R-8781512-1468655169-4141.jpeg.jpgA
-wget -O "./front-cover.png" https://i.discogs.com/DIreyJQKxymhee0tBCt9_XF9b1ebo21wrYpy_vjB4g8/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQwMjkx/MS0xMTA5MTM3NTIz/LmpwZw.jpeg
 cd ../
 cd Lullabies\ for\ Houseplants\ -\ Silence\ \&\ Frost
-wget -O "./front-cover.png" https://i.discogs.com/41Mc2VJtBzoAX961Dz9-w66_MhbJh4DeRE_9L0gKClk/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MDc2/MjIxLTE1NjczODQ1/ODUtOTA5My5qcGVn.jpeg
 cd ../Lush\ -\ Gala
-wget -O "./front-cover.png" https://i.discogs.com/1AWpINi4yX1Fv7FV1XVTJIfqA4swrfjkWHk_DyjKJk4/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2Nzc5/OC0xMzM3NTE4OTQ1/LTQ3NTUuanBlZw.jpeg
 cd ../Lush\ -\ Spooky
-wget -O "./front-cover.png" https://i.discogs.com/JH9Mf3vsgOAuRUyqMWf4fp_CaUEOSsUJKPlEpKHoL2Y/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4ODQ4/OS0xNDk1NDgyOTE4/LTI5NTguanBlZw.jpeg
 cd ../Madison\ Cunningham\ -\ Who\ are\ You\ Now
-wget -O "./front-cover.jpeg" https://i.discogs.com/66JpIeYL6wyY0efM5ly4G1yTjNBqijfcT69oCL22NKo/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MDg4/MzU2LTE1Njc2MTY1/NTQtNDIzOS5qcGVn.jpeg
-wget -O "./front-cover.jpg" https://m.media-amazon.com/images/I/317r-Mwhs1L._UX358_FMjpg_QL85_.jpg
 z Down
 z Music\ Downloads
 jk_extract_music
 z Music
 cd ~/Music/Nirvana\ -\ In\ Utero
-wget -O "./front-cover.jpg" https://m.media-amazon.com/images/I/51An5XtVV3L._UX358_FMwebp_QL85_.jpg
-wget -O "./front-cover.jpg" https://m.media-amazon.com/images/I/51An5XtVV3L._UX358_FMjpg_QL85_.jpg
 cd ../Chris\ Buhalis\ -\ Big\ Car\ Town
-wget -O "./front-cover.png" https://3.bp.blogspot.com/-OEsnNEb6Ar4/VuOjfaDr_rI/AAAAAAAABx4/U2XN_dxZIukbPfSnnwYqUyXsPIwVEDo1Q/s320/Big%252BCar%252BTown.png
 cd ../Bowerbirds\ -\ The\ Clearing
-wget -O "./front-cover.jpeg" https://i.discogs.com/AIvTb_PuMFZYHVpL7hD_20-bASf4BYaT6NOzNW3VYEU/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNTYy/MjItMTMyNzE1MDU5/OS5wbmc.jpeg
 ncdu
 bpytop
 nala bluez
@@ -2079,11 +2039,8 @@ bpytop
 z Music\ Downlo
 jk_extract_music
 cd ~/Music/The\ Deep\ Dark\ Woods\ -\ Yarrow
-wget -O "./front-cover.jpg" https://f4.bcbits.com/img/a0916129486_16.jpg
 cd ../Richard\ Buckner\ -\ Since
-wget -O "./front-cover.jpg" https://m.media-amazon.com/images/I/51MahlIR1gL.jpg
 cd ../Muse\ -\ The\ 2nd\ Law
-wget -O "./front-cover.jpg" https://m.media-amazon.com/images/I/A194RtuzhIL._SY450_.jpg
 cln
 cd ~/
 bash
@@ -2098,13 +2055,9 @@ mkdir "A Hawk And A Hacksaw - Darkness At Noon"
 mkdir "A Hawk And A Hacksaw - Delivrance"
 la
 cd A\ Hawk\ And\ A\ Hacksaw\ -\ Delivrance
-wget -O "./front-cover.jpg" https://f4.bcbits.com/img/a0380790801_16.jpg
 cd ../A\ Hawk\ And\ A\ Hacksaw\ -\ The\ Way\ The\ Wind\ Blows
-wget -O "./front-cover.jpg" https://f4.bcbits.com/img/a0982564470_16.jpg
 cd ../A\ Hawk\ And\ A\ Hacksaw\ -\ Darkness\ At\ Noon
-wget -O "./front-cover.jpg" https://f4.bcbits.com/img/a1136084142_16.jpg
 cd ../A\ Hawk\ And\ A\ Hacksaw\ -\ A\ Hawk\ And\ A\ Hacksaw
-wget -O "./front-cover.jpg" https://f4.bcbits.com/img/a1744634035_16.jpg
 code clean-names.py
 cd Downloads/A\ Hawk\ And\ A\ Hacksaw\ -\ Four\ Album\ Bundle
 /bin/python3 "/home/jared/Downloads/A Hawk And A Hacksaw - Four Album Bundle/clean-names.py"
@@ -2555,9 +2508,7 @@ npm run prod
 wp-prod
 cd ~/Music/Damien\ Jurado\ -\ Rehersals\ for\ Departure
 hg wget
-2020  wget -O "./front-cover.jpg" https://f4.bcbits.com/img/a2344252384_16.jpg\
 
-wget -O "./front-cover.jpg" https://f4.bcbits.com/img/a2344252384_16.jpg\
 
 jk_extract_music
 npm install react-datepicker --save
@@ -2895,7 +2846,6 @@ rm *.CUE
 la
 rm *.m3u
 hg wget
-wget -O "./front-cover.jpg" https://gregoryalanisakov.com/wp-content/uploads/2011/12/GAI.TENH_.cover_-1024x914.jpg\
 
 cd ../Natalia\ Lafourcade\ -\ Hu\ Hu\ Hu
 la
@@ -2990,7 +2940,6 @@ nvim ~/.config/nvim/init.vim
 nvim
 fg
 cd Music/Josh_Ritter_-_Fever_Breaks_-_Mastered_MP3
-wget -O "./front-cover.jpg" "https://media.npr.org/assets/img/2019/04/15/josh_ritter_cover_sq-930aa1c1db69fd15ff61506c145b9ee043c74f79.jpg"\
 
 la
 cd Josh\ Ritter\ -\ Fever\ Breaks\ -\ Mastered\ MP3
@@ -3028,10 +2977,8 @@ python3 division_speed_test.py
 fg
 exit
 cd Music/Mogwai\ -\ Hardcore\ Will\ Never\ Die,\ But\ You\ Will\ 2CD
-wget -O "./front-cover.jpg" "https://subpop-img.s3.amazonaws.com/asset/productable_images/attachments/000/001/355/max_960/8238.jpg\?1389005144"\
 
 cd ../Mogwai\ -\ Young\ Team\ 2\ CD
-wget -O "./front-cover.jpg" "https://i.discogs.com/0KC0yPD40zCgp31TpMceY6H2fHZvy4gf6JTFIY9awyU/rs:fit/g:sm/q:90/h:441/w:440/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgxNjk5/Ny0xMzc0MzM0MzMw/LTc4NDMuanBlZw.jpeg"\
 
 code /var/www/contracts
 npm install --save @es-joy/jsdoccomment
@@ -3090,7 +3037,6 @@ z ~/Music
 z Neutral
 z Neutral Milk Hotel
 cd Neutral\ Milk\ Hotel\ -\ In\ the\ Aeroplance\ Over\ the\ Sea
-wget -O "./front-cover.jpg" "https://i1.sndcdn.com/avatars-000212330087-hu9f7m-t500x500.jpg"\
 
 npm run watch
 cd /var/www
@@ -3123,7 +3069,6 @@ git push origin master
 hg git
 git push https://github.com/masterteapot/contracts.git
 cd ~/Music/Joy\ Electric\ -\ The\ Ministry\ of\ Archers
-wget -O "./front-cover.jpg" "https://i.scdn.co/image/ab67616d0000b27359412028256f2f166f8d4c55"\
 
 jk_extract_music
 npm run watch
@@ -3298,20 +3243,14 @@ sudo apt upgrade
 cln
 bpytop
 cd Music/The\ Low\ Anthem\ -\ The\ Salt\ Doll\ Went\ to\ Measure\ the\ Depth\ of\ the\ Sea
-wget -O "./front-cover.jpg" "https://cdn2.thelineofbestfit.com/images/remote/https_cdn2.thelineofbestfit.com/media/2014/The_Low_Anthem_-_The_Salt_Doll.jpg"\
 
 cd ../Thrice\ -\ Vheissu
-wget -O "./front-cover.jpg" "https://i.discogs.com/4-JbLV6C6v_X_Ly2dQHTYuCBPIRBmGBbG5bAhsrgGGg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU4Njky/MDItMTQwNDk0MTQ0/Mi04NTA2LmpwZWc.jpeg"\
 
-wget -O "./front-cover-2.jpg" "https://www.brooklynvegan.com/files/2019/09/thrice-vheissu.jpg\?w\=1200\&h\=0\&zc\=1\&s\=0\&a\=t\&q\=89"\
 
-wget -O "./front-cover-2.jpg" "https://www.brooklynvegan.com/files/2019/09/thrice-vheissu.jpg"\
 
 cd ../The\ River\ Bends\ -\ ...\ And\ Flows\ into\ the\ Sea
-wget -O "./front-cover-.jpg" "https://i.discogs.com/KvW2fYVtMSpKmz45kJpQnWwRz_bdBywGnKmNkwWxLMQ/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2ODE3/MTMtMTUwNzM2OTE3/MC05ODU1LmpwZWc.jpeg"\
 
 cd ../The\ September\ Equation\ -\ Trained\ Hearts\ Will\ Do\ the\ Job
-wget -O "./front-cover.jpg" "https://f4.bcbits.com/img/a0529834874_16.jpg"\
 
 npm run watch
 locale -a
@@ -3331,16 +3270,13 @@ cln
 bpytop
 cd Music/Shearwater\ -\ The\ Golden\ Archipelago
 la
-wget -O "./front-cover.jpg" "https://files.list.co.uk/images/2010/01/27/shearwater-LST069430.jpg"\
 
-wget -O "./front-cover-2.jpg" "https://subpop-img.s3.amazonaws.com/asset/productable_images/attachments/000/001/574/original/10936.jpg"\
 
 bpytop
 cd Downloads/balena-etcher
 la
 ./balenaEtcher-1.7.9-x64.AppImage
 cd Music/Talk\ Talk\ -\ The\ Very\ Best\ of\ Talk\ Talk
-wget -O "./front-cover.jpg" "https://media.senscritique.com/media/000004874811/source_big/Natural_History_The_Very_Best_of_Talk_Talk_Compilation.jpg"\
 
 sudo apt update
 sudo apt upgrade
@@ -3427,14 +3363,11 @@ bpytop
 ssh das-law-dev
 sudo mysql -u root
 cd Music/The\ Avett\ Brothers\ -\ Magpie\ And\ The\ Dandelion\ \(Deluxe\ Edition\)\ 2013\ 320kbps\ CBR\ MP3\ \[VX\]\ \[P2PDL\]
-wget -O "./front-cover.jpg" "https://americansongwriter.com/wp-content/uploads/2013/10/Magpie_and_the_Dandelion_deluxe.jpg"\
 
 cd ../The\ Avett\ Brothers\ -\ Country\ Was
 la
-wget -O "./front-cover.jpg" "http://vignette3.wikia.nocookie.net/avettbrothers/images/4/45/Country_Was.jpg"\
 
 cd ../Neon\ Horse\ -\ Neon\ Horse
-wget -O "./front-cover.jpg" "http://2.bp.blogspot.com/-f5iARrOxMUw/TdRy5H5NU1I/AAAAAAAAAMs/XViqnuG4KdQ/s1600/NeonHorse-01-big.jpg"\
 
 anaconda-navigator
 sudo mysql -u root
@@ -3445,48 +3378,34 @@ npm run prod
 wp-prod
 cd Music/Starflyer\ 59\ -\ Shes\ the\ Queen
 la
-wget -O "./front-cover.jpg" "https://img.discogs.com/DSrq_K4S9r0ANpcqB-YhShhYc70\=/fit-in/600x600/filters:strip_icc\(\):format\(jpeg\):mode_rgb\(\):quality\(90\)/discogs-images/R-371448-1478920057-6821.jpeg.jpg"\
 
-wget -O "./front-cover.jpg" "https://img.discogs.com/DSrq_K4S9r0ANpcqB-YhShhYc70"\
 
-wget -O "./front-cover.jpg" "https://i.discogs.com/hq6bfnryVWtAYaW8t-0t9T7kzbDG7i72feWFq5-64Zo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3MTQ0/OC0xNDc4OTIwMDU3/LTY4MjEuanBlZw.jpeg"\
 
 cd Music/Starflyer\ 59\ -\ Everybody\ Makes\ Mistakes
 la
-wget -O "./front-cover2.jpg" "https://m.media-amazon.com/images/I/51DI49CvSQL._SS500_.jpg"\
 
-wget -O "./front-cover.jpg" "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2393/2393396_sa.jpg"\
 
 rm front-cover.jpg
 cd ../Starflyer\ 59\ -\ Starflyer\ 59
-wget -O "./front-cover.jpg" "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/2393/2393396_sa.jpg"\
 
 cd ../Starflyer\ 59\ -\ Young\ In\ My\ Head
-wget -O "./front-cover.jpg" "https://www.jesusfreakhideout.com/cdreviews/covers/younginmyhead.jpg"\
 
 cd Downloads
 jk_extract_music
 cd Music/Fugazi\ -\ 13\ Songs
-wget -O "./front-cover.jpg" "https://i.discogs.com/bFZWbkcYJzdKiBGyAgDPaTUe82X9OOWS7nUU0eB5Vp8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NTIx/MDQtMTI2MTU4MDg0/Ni5qcGVn.jpeg"\
 
 cd ../Fugazi\ -\ End\ Hits
 la
-wget -O "./front-cover.jpg" "https://i.pinimg.com/originals/ed/4a/fc/ed4afcdcd4193bbc5bc496e08577a33a.jpg"\
 
 cd ../Fugazi\ -\ First\ Demo
-wget -O "./front-cover.jpg" "https://i0.wp.com/www.musicomh.com/wp-content/uploads/2014/11/fugazi-first-demo.jpg"\
 
 cd ../Fugazi\ -\ In\ on\ the\ Kill\ Taker
-wget -O "./front-cover.jpg" "https://sentireascoltare.com/wp-content/uploads/2014/08/fugazi-In-on-the-Kill-Taker-e1407841907467.jpg"\
 
 cd ../Fugazi\ -\ Instrument\ Soundtrack
-wget -O "./front-cover.jpg" "https://www.musicdirect.com/Portals/0/Hotcakes/Data/products/5d653c15-843e-4653-8ef8-51ee128b8e12/medium/LDF62019.jpg"\
 
 cd ../Fugazi\ -\ Repeater\ +\ 3\ Songs
-wget -O "./front-cover.jpg" "https://i.pinimg.com/originals/b2/fb/de/b2fbdea1bd49a6e687d84f1f65b697fc.jpg"\
 
 cd ../Fugazi\ -\ Steady\ Diet\ of\ Nothing
-wget -O "./front-cover.jpg" "https://i.discogs.com/WP9zzv6-MpAi2R2KK0FukE5PcdX8l3dvkvaUQfnOois/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNTcz/MDEtMTMxODM3MjUy/My5qcGVn.jpeg"\
 
 cln
 la
@@ -3932,13 +3851,9 @@ rm 2022-07_HS_Tasks.md
 la
 cd Music/Squirrel\ Nut\ Zippers\ -\ Perennial\ Favorites
 la
-wget -O "./front-cover.jpg" "https://img.discogs.com/JNwIY943fhkf4Rvnw4kR-sC-9_A=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-651660-1254436772.jpeg"\
 
-wget -O "./front-cover.jpg" "https://img.discogs.com/JNwIY943fhkf4Rvnw4kR-sC-9_A=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-651660-1254436772.jpeg.jpeg"\
 
-wget -O "./front-cover.jpg" "https://img.discogs.com/JNwIY943fhkf4Rvnw4kR-sC-9_A=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-651660-1254436772.jpeg.jpeg"\
 
-wget -O "./front-cover.jpg" "https://i.discogs.com/8ZPD3O129L-0j2how9_IaETzayKTrTnW00R9jSPJFZE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1MTY2/MC0xMjU0NDM2Nzcy/LmpwZWc.jpeg"\
 
 nvim .config/lvim/config.lua
 lvim .config/lvim/config.lua
@@ -4222,20 +4137,12 @@ exit
 exit
 cd Music/Minor\ Threat\ -\ Complete\ Discography
 la
-wget -O "./front-cover.jpg" "http://dayafter.cz/img/da_product_358.jpg"\
 
 cd ../Mogwai\ -\ Every\ Country\'s\ Sun\ \(2017\)
-wget -O "./front-cover.jpg" "https://cdn.shopify.com/s/files/1/1359/7195/products/TRR291_MOGWAI_ECS_cover_hi-res_1500x1500px_640x.jpg?v=1527360063"\
 
 cd ../Scott\ Walker\ -\ \'Til\ The\ Band\ Comes\ In
-wget -O "./front-cover.jpg" "https://media.pitchfork.com/photos/5929bc6a13d197565213b2fd/1:1/w_600/7e187adc.jpg"
 cd ../Scott\ Walker\ -\ And\ Who\ Shall\ Go\ To\ The\ Ball\ And\ What\ Shall\ Go\ To\ The\ Ball
-wget -O "https://img.discogs.com/HwkLGK7h8mvtam_jMn6g_0paPxM=/fit-in/600x531/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1083349-1558028037-8176.jpeg.jpg" 
-wget -O "https://img.discogs.com/HwkLGK7h8mvtam_jMn6g_0paPxM=/fit-in/600x531/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-1083349-1558028037-8176.jpeg.jpg"
-wget -O "https://i.discogs.com/nHn_k473oNuKEylaXpbu6_6UqgJQLsJVwW-XkxkEULU/rs:fit/g:sm/q:90/h:531/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwODMz/NDktMTU1ODAyODAz/Ny04MTc2LmpwZWc.jpeg"
-wget -O "front-cover.jpg" "https://i.discogs.com/nHn_k473oNuKEylaXpbu6_6UqgJQLsJVwW-XkxkEULU/rs:fit/g:sm/q:90/h:531/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwODMz/NDktMTU1ODAyODAz/Ny04MTc2LmpwZWc.jpeg"
 cd ../Scott\ Walker\ -\ Climate\ Of\ Hunter
-wget -O "./front-cover.jpg" "https://img.discogs.com/k0zYYf03jqVN3Dk4dbYuFw0smPo=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-7820861-1449564063-2718.jpeg.jpg"
 nvimrc
 notes
 notes
@@ -4647,58 +4554,35 @@ cd /var/www/contracts/wp-content/themes/contracts-theme
 git status
 bpytop
 cd Music/Dick\ Dale\ -\ Tribal\ Thunder
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d0000b2738b841eb5954b49b8d0d5f017&f=1&nofb=1"
 cd ../Dr.\ Unk\ -\ Somautomaton
-wget -O "./front-cover.jpg" "https://www.facebook.com/DoctorUnk/photos/a.337958503016472/337958513016471"
 ranger .
 rm front-cover.jpg
 nautilus ./
 cd ../Dropkick\ Murphys\ -\ Blackout
 ls -la
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi5.walmartimages.com%2Fasr%2F81862f11-da48-4211-b89f-d40a015f95c4_1.8290df70f632c84704c8a10cbe2e9e93.jpeg%3FodnWidth%3D612%26odnHeight%3D612%26odnBg%3Dffffff&f=1&nofb=1"
 cd ../Dropkick\ Murphys\ -\ Do\ or\ Die
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.musicmeter.nl%2Fimages%2Fcover%2F1000%2F1055.jpg%3Fcb%3D1563629001&f=1&nofb=1"
 cd ../Dropkick\ Murphys\ -\ Sing\ Loud,\ Sing\ Proud\!
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages4.fanpop.com%2Fimage%2Fphotos%2F18700000%2FSing-Loud-Sing-Proud-dropkick-murphys-18729857-600-600.jpg&f=1&nofb=1"
 cd ../Dropkick\ Murphys\ -\ The\ Gang\'s\ All\ Here
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoretexrecords.com%2Fmedia%2Fimage%2Fproduct%2F83936%2Flg%2Fdropkick-murphys-the-gangs-all-here.png&f=1&nofb=1"
 cd ../Dropkick\ Murphys\ -\ The\ Meanest\ of\ Times
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.media.wmg-is.com%2Fmedia%2Fportal%2Fmedia%2Fcms%2Fimages%2F200707%2Fmeanest-of-times-extralarge_1185846262638.jpg&f=1&nofb=1"
 cd ../Dropkick\ Murphys\ -\ The\ Warriors\ Code
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.albumrock.net%2Fdyn_img%2Fpochettes_album%2F7814_150.jpg&f=1&nofb=1"
 cd ../Echo\ \&\ the\ Bunnymen\ -\ Songs\ to\ Learn\ \&\ Sing
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.albumoftheyear.org%2Falbum%2F8629-more-songs-to-learn-and-sing.jpg&f=1&nofb=1"
 notes
 cd Music/Frontier\ Ruckus\ -\ Sitcom\ Afterlife
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F81ydJE257FL._SX466_.jpg&f=1&nofb=1"
 cd Music/16\ Horsepower\ -\ 1996\ -\ Sackcloth\ N\'\ Ashes
 la
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopuszine.us%2F_assets%2Freviews%2F_mediumCropped%2Fsackcloth-n-ashes-16-horsepower.jpg&f=1&nofb=1"
 cd ../16\ Horsepower\ -\ 1995\ -\ Black\ Soul\ Choir\ -\ Single
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2FEMA6nHKrOrzW4wD-lXyNP42SGmM%3D%2Ffit-in%2F554x425%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-2539350-1289486378.jpeg.jpg&f=1&nofb=1"
 cd ../16\ Horsepower\ -\ 1996\ -\ Haw\ EP
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2FXXvp_Osi1AkeMiNiJJQGwqje5ss%3D%2Ffit-in%2F300x300%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(40)%2Fdiscogs-images%2FR-1892855-1482324024-2516.jpeg.jpg&f=1&nofb=1"
 cd ../16\ Horsepower\ -\ 1997\ -\ Coal\ Black\ Horses\ EP
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoolisrael.it%2Fimages%2Fb32%2F02%2F464868-sixteen-horsepower-coal-black-horses.jpg&f=1&nofb=1"
 cd ../16\ Horsepower\ -\ 1997\ -\ Ditch\ Digger\ EP
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.EZSMyKhoA9aq2URrrKUYKQHaHa%26pid%3DApi&f=1"
 cd ../16\ Horsepower\ -\ 1998\ -\ Low\ Estate
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FiIZRSA3w5Zs%2Fmaxresdefault.jpg&f=1&nofb=1"
 gimp .
 cd ../16\ Horsepower\ -\ 2000\ -\ Clogger\ EP
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-Ih7MDrjKBwo%2FTVrGLB0bqUI%2FAAAAAAAADFg%2FZcQIBGHjo0w%2Fs400%2FStby6.jpg&f=1&nofb=1"
 cd ../16\ Horsepower\ -\ 2000\ -\ Secret\ South
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d0000b273aef67d0876e9254e1a250d6b&f=1&nofb=1"
 cd ../16\ Horsepower\ -\ 2001\ -\ Hoarse
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.tV73oZyRzXhUg3HPeUWVTAHaHa%26pid%3DApi&f=1"
 cd ../16\ Horsepower\ -\ 2001\ -\ Splinters\ \ Nobody\ \'Cept\ You\ EP
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2FRWAxh5r9sXb-aQJjt0nIv4yzUEY%3D%2Ffit-in%2F600x467%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-1279008-1406232943-3921.jpeg.jpg&f=1&nofb=1"
 cd ../16\ Horsepower\ -\ 2002\ -\ Folklore
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.hhv.de%2Fcatalog%2Fshop_detail_zoom%2F00408%2F408908.jpg&f=1&nofb=1"
 cd ../16\ Horsepower\ -\ 2003\ -\ Olden
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.albumoftheyear.org%2Falbum%2F15225-olden.jpg&f=1&nofb=1"
 cd ../16\ Horsepower\ -\ 2005\ -\ Live\ In\ Concert
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcolomusic.org%2Fwp-content%2Fuploads%2F2018%2F07%2Fsixteen-horsepower-image-lg.jpg&f=1&nofb=1"
 cd /etc/gtk-3.0
 la
 nvim settings.ini
@@ -4795,9 +4679,7 @@ nvimrc
 nvimrc
 nvimrc
 cd Music/The\ National\ -\ Trouble\ Will\ Find\ Me\ \(2013\)
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.apmcdn.org%2F9893b54132be779e05a183536de75bdebf07588c%2Funcropped%2F232b8b-20130321-national-trouble-will-find-me.jpg&f=1&nofb=1"
 cd ../The\ Raveonettes\ -\ Pretty\ in\ Black
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.genius.com%2Faf20c6dd30cc977581150e11808ace2e.1000x1000x1.jpg&f=1&nofb=1"
 la
 cp page-pdf-test.php page-testament-new.php
 cp page-pdf-test.php page-testament-edit.php
@@ -4810,108 +4692,19 @@ sudo apt update
 sudo nala update
 sudo nala upgrade
 cd Music/The\ Tossers\ -\ On\ a\ Fine\ Spring\ Evening
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fed%2F84%2F9c%2Fed849cd374c3367b5c7f728c187cdd06--pint-of-beer-film-books.jpg&f=1&nofb=1"
 cd ../The\ Ventures\ -\ The\ Best\ of\ the\ Ventures
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2F07Q77TkLeqO-46Atb0IAqwER0n4%3D%2Ffit-in%2F600x594%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-779249-1415696130-4700.jpeg.jpg&f=1&nofb=1"
 cd ../The\ Ventures\ -\ The\ Ventures\ Play\ Telstar\ and\ Ventures\ in\ Space
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.senscritique.com%2Fmedia%2F000005200202%2Fsource_big%2FThe_Ventures_Play_Telstar_The_Lonely_Bull_and_Others.jpg&f=1&nofb=1"
 cd ../The\ Handsome\ Family\ -\ In\ the\ Air
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.-HfiHV77nJORjIPdZZmZ0QHaHa%26pid%3DApi&f=1"
 cd ..
 la | grep hand
 la | grep Hand
 cd Handsome\ Family\ -\ Twilight
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcps-static.rovicorp.com%2F3%2FJPG_500%2FMI0000%2F347%2FMI0000347547.jpg%3Fpartner%3Dallrovi.com&f=1&nofb=1"
 cd ../The\ Deslondes\ -\ Hurry\ Home
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Famericansongwriter.com%2Fwp-content%2Fuploads%2F2017%2F06%2Fa3419755364_10.jpg&f=1&nofb=1"
 cd ../Deslondes\ -\ Deslondes
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn2.pitchfork.com%2Falbums%2F21831%2Fhomepage_large.29e18d6c.jpg&f=1&nofb=1"
 cd ../The\ Chariot\ -\ Unsung
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ft2.genius.com%2Funsafe%2F600x600%2Fhttps%3A%2F%2Fimages.genius.com%2Fbf4aff3d10e0a53118e787939eae662b.800x800x1.jpg&f=1&nofb=1"
 cd ../The\ Cactus\ Blossoms\ -\ Easy\ Way
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.dirtyrock.info%2Fwp-content%2Fuploads%2F2019%2F11%2FNuevo-disco-de-The-Cactus-Blossoms-Easy-Way-770x770.jpg&f=1&nofb=1"
 cd ../The\ Black\ Keys\ -\ Have\ Love\ Will\ Travel\ \(Single\)
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcps-static.rovicorp.com%2F3%2FJPG_400%2FMI0002%2F094%2FMI0002094451.jpg%3Fpartner%3Dallrovi.com&f=1&nofb=1"
 cd ../The\ Black\ Keys\ -\ Brothers\ \(Deluxe\ Edition\)
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-O-vyOjrx4dY%2FTvvTsJpmRNI%2FAAAAAAAAAMc%2F-rPxQc1-HYc%2Fs1600%2Fthe-black-keys-brothers.jpg&f=1&nofb=1"
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F4b%2Fac%2Fe8%2F4bace81a32e4cb321e859bef63905a8f.jpg&f=1&nofb=1"
-cd ../Tom\ Waits\ -\ Blood\ Money
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.pitchfork.com%2Fphotos%2F5a7a1e1cd656e77a60f6e727%2Fmaster%2Fw_1280%252Cc_limit%2FTom-Waits-Blood-Money.jpg&f=1&nofb=1"
-cd ../Training\ for\ Utopia\ -\ Technical\ Difficulties
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F61jCFJfbZrL._SS500_.jpg&f=1&nofb=1"
-cd ../Whats\ Your\ Damage\ -\ Whats\ Your\ Damage
-wget -O "./front-cover.jpg" "https://f4.bcbits.com/img/a1156091689_16.jpg"
-cd ../Zao\ -\ All\ Else\ Failed
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.mZHtN9ppRpI-AFKXs4aGkAHaHa%26pid%3DApi&f=1"
-cd ../Sigur\ Ros\ -\ Agaetis\ Byrjun
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fp3.storage.canalblog.com%2F33%2F96%2F636073%2F43431210.jpg&f=1&nofb=1"
-cd ../Solvent\ -\ Subject\ to\ Shift
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2FqWtVwZ2RL66Ygpf-fbFOLUW_EGQ%3D%2Ffit-in%2F600x549%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-2261130-1292850339.jpeg.jpg&f=1&nofb=1"
-cd ../Scott\ Walker\ -\ Scott
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmusiczone.ie%2Fwp-content%2Fuploads%2F2014%2F04%2FScott-Walker-%25E2%2580%2593-Scott.jpg&f=1&nofb=1"
-cd ../Scott\ Walker\ -\ Scott\ 2
-cd ../Scott\ Walker\ -\ Scott\ 3
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fd24jnm9llkb1ub.cloudfront.net%2Ficpn%2F00602537409037%2F00602537409037-cover-zoom.jpg&f=1&nofb=1"
-cd ../Russian\ Circles\ -\ Station
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2FpPKRqir2z1WD7RRuDICkGuxBtks%3D%2Ffit-in%2F600x600%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-1394822-1215972823.jpeg.jpg&f=1&nofb=1"
-cd ../Rancid\ -\ Let\ the\ Dominoes\ Fall
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-nXs8RTL9stg%2FTxCGlW3dbVI%2FAAAAAAAAKXg%2FbSmal-Sotao%2Fs1600%2F10.rancid-let%2Bthe%2Bdominoes%2Bfall-2009.jpg&f=1&nofb=1"
-cd ../Red\ Hot\ Chili\ Peppers\ -\ By\ the\ Way
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2F0junfJ6fcoecGi648xsL9QI3JW0%3D%2Ffit-in%2F600x610%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-12423296-1534992365-5599.jpeg.jpg&f=1&nofb=1"
-cd ../Operation\ Ivy\ -\ Operation\ Ivy
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.RWom2QYPaV6JPJZq-z1RlAHaHa%26pid%3DApi&f=1"
-cd ../Narcissus\ -\ Becoming\ Levaithan
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2FDT2NnwJhMhp6_eVogimborW1b5E%3D%2Ffit-in%2F600x600%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-1075854-1436926709-1140.jpeg.jpg&f=1&nofb=1"
-cd ../Lush\ -\ Desire\ Lines
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.XmBLbnR0RuQ1-13BtK1huQHaHa%26pid%3DApi&f=1"
-cd ../Lord\ Buffalo\ -\ Lord\ Buffalo
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.dHPDMXAaKilefE-aBHKHAwHaHa%26pid%3DApi&f=1"
-cd ../Helios\ -\ Veriditas
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fultimae.com%2Fwp-content%2Fuploads%2F2018%2F09%2FR-12444567-1535720018-2356.jpeg.jpg&f=1&nofb=1"
-cd ../Fine\ China\ -\ Jaws\ of\ Life
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0015%2F2602%2Fproducts%2FFC_01FRONT_1024x1024.jpg%3Fv%3D1445530138&f=1&nofb=1"
-cd ../Deltron\ 3030\ -\ Deltron\ 3030
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fsixstringstrength.com%2Fwp-content%2Fuploads%2F2012%2F07%2FFront.jpg&f=1&nofb=1"
-cd ../Denison\ Witmer\ -\ Philadelphia\ Songs
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcps-static.rovicorp.com%2F3%2FJPG_500%2FMI0000%2F366%2FMI0000366764.jpg%3Fpartner%3Dallrovi.com&f=1&nofb=1"
-cd ../David\ Bowie\ -\ ChangesOneBowie
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.vinileshop.it%2Fvinili%2Fimages%2FChangesonebowie-David-Bowie-Vinile-lp2.jpg&f=1&nofb=1"
-cd ../Car\ Seat\ Headrest\ -\ Teens\ of\ Denial
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn2.thelineofbestfit.com%2Fimages%2Fremote%2Fhttp_cdn2.thelineofbestfit.com%2Fmedia%2F2014%2FCar_Seat_Headrest_-_Teens_of_Denial.jpg&f=1&nofb=1"
-cd ../Calibretto\ -\ Dead\ by\ Dawn
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdzasv7x7a867v.cloudfront.net%2Fproduct_photos%2F23615709%2F41AMKGWCN3L_original.jpg&f=1&nofb=1"
-cd ../Blind\ Guardian\ -\ Somewhere\ Far\ Beyond
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-ccU9dFXHUkE%2FUlGaIxjKh0I%2FAAAAAAAAA80%2FuDQ6eagN5fM%2Fs1600%2FFront.jpg&f=1&nofb=1"
-cd ..
-cd Black\ Rebel\ Motorcycle\ Club\ -\ Specter\ at\ the\ Feast
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.BtxpqGKvbFSg8JFsCBe-GwHaHa%26pid%3DApi&f=1"
-cd ../Black\ Rebel\ Motorcycle\ Club\ -\ Howl
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.ouu9v3yneD7k3CahW6UVbQHaHa%26pid%3DApi&f=1"
-cd ../Beach\ House\ -\ Depression\ Cherry
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fsentireascoltare.com%2Fwp-content%2Fuploads%2F2015%2F05%2FBeach-House-Depression-Cherry.jpg&f=1&nofb=1"
-cd ../Baroness\ -\ Yellow
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvinylcoverart.com%2Fpics%2Fy%2Fbaroness-yellow-green-big.jpg&f=1&nofb=1"
-cd ../Baroness\ -\ Green
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.ikJ6EgjPPvr4qqncK4cIHwHaHa%26pid%3DApi&f=1"
-cd ../Andrew\ Bird\ -\ The\ Ballad\ of\ the\ Red\ Shoes
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Xf0Pa1J4qJnl5D6vFts3-AHaHa%26pid%3DApi&f=1"
-cd ../Andrew\ Bird\ -\ Soldier\ On
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.uE30am2cIFhTjI0fVrUAmwHaHa%26pid%3DApi&f=1"
-cd ../Andrew\ Bird\ -\ Music\ of\ Hair
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn2.albumoftheyear.org%2F200x%2Falbum%2F76769-music-of-hair.jpg&f=1&nofb=1"
-cd ../Andrew\ Bird\ -\ Fingerlings\ 4
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ff4.bcbits.com%2Fimg%2Fa2444962602_10.jpg&f=1&nofb=1"
-cd ../Andrew\ Bird\ -\ Fingerlings\ 3
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fe0%2F78%2F7e%2Fe0787eb7c3c3aed384aa51172a70fecc.jpg&f=1&nofb=1"
-cd ../Andrew\ Bird\ -\ Fingerlings\ 2
-"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d0000b27349c811ea082bbc45b4b53eb9&f=1&nofb=1"
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d0000b27349c811ea082bbc45b4b53eb9&f=1&nofb=1"
-cd ../Andrew\ Bird\ -\ Echolocations\ Canyon
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d0000b273e9425256f20ca788de6e6330&f=1&nofb=1"
-cd ../Andrew\ Bird\ -\ Are\ You\ Serious
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F819K%252Bea6xdL._SL1200_.jpg&f=1&nofb=1"
-cd ../Anda\ Union\ -\ The\ Wind\ Horse
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F61aQk3jrcfL._SX425_.jpg&f=1&nofb=1"
 notes
 notes
 notes
@@ -4975,12 +4768,6 @@ hg . | fzf
 hg
 hg wget
 zi
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopuszine.us%2F_assets%2Freviews%2F_thumbnail%2FTalking_Voice_Vs_Singing_Voice-sf59.jpg&f=1&nofb=1"
-cd ../Stevie\ Ray\ Vaughan\ and\ Double\ Trouble\ -\ The\ Sky\ is\ Crying
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.qobuz.com%2Fimages%2Fcovers%2F22%2F90%2F0074644739022_600.jpg&f=1&nofb=1"
-cd Music/The\ Album\ Leaf\ -\ Seal\ Beach\ EP
-wget -O "./front-cover.jpg" "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2Fn1CSVgtW-mDPfAFHgIYmhzo4iak%3D%2Ffit-in%2F600x610%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-6827679-1532554559-3647.jpeg.jpg&f=1&nofb=1"
-cd Downloads
 la
 mv Wovenhand\ -\ Ten\ Stones.zip Music\ Downloads
 jk_extract_music
@@ -7122,3 +6909,532 @@ la
 nvim .
 nvim .
 exit
+<<<<<<< HEAD
+la env
+la | grep venv
+la | grep env
+la
+cd .renpy
+la
+cd ..
+cd .config/nvim
+la
+git pull
+cd ../zsh
+git pull
+git mergetool
+yay -Sy
+yay -S nvimdiff
+zshrc
+zshrc
+fzf_yay
+cd ../nvim
+git pull
+git mergetool
+git pull
+git status
+git mergetool --tool-help
+git mergetool --tool=nvimdiff
+git add .
+git commit -m "merged in stuff"
+git pull
+git config pull.rebase false
+git pull
+git mergetool --tool=nvimdiff
+git mergetool --tool=vimdiff
+git mergetool --tool=vimdiff
+la
+nvim .
+git add.
+git add .
+la
+git commit -m "merged in treesitter"
+git pull
+git add .
+git commit -m "merged in treesitter"
+git push
+nvimrc
+nvimrc
+cd .config/zsh
+la
+git pull
+nvim .
+cd ../zsh
+git pull
+la
+rm .zsh_history
+git pull
+git mergetool --tool=vimdiff
+git pull
+git mergetool --tool=vimdiff
+git merge
+git add .
+git commit -m "preparing for a merge"
+git pull
+git mergetool --tool=vimdiff
+git mergetool --tool=nvimdiff
+git merge --abort
+git pull
+git mergetool --tool=nvimdiff
+git add .
+git commit -m "preparing for a merge"
+git push
+git pull
+git status
+blog
+zshrc
+exit
+blog
+mkdir .pyenv
+cd .pyenv
+python -m venv django
+la
+django
+pwd
+la
+rm -r django
+cd ..
+rm -r .pyenv
+cd ~
+mkdir .pyenv
+cd .pyenv
+python -m venv django
+django
+cd ..
+cd Website_Projects/jaredsblog
+la
+rm -r jareds-venv
+la
+cd jaredsblog
+la
+git pull
+la
+pip install -r requirements.txt
+python -m pip install --upgrade pip
+python manage.py makemigrations
+python manage.py migrations
+python manage.py migrate
+python manage.py tailwind start
+nvim .
+git add .
+git commit -m "added some colors"
+git push
+django
+blog
+python manage.py runserver
+django
+blog
+nvim .
+=======
+cd Documents/Python_Scripts/crm-flow-cohorts
+git add .
+git commit -m "Updated to have better loopy configs and added costs"
+git push
+cd ~/.config/zsh
+git add .
+git commit -m "Not sure what I did"
+git status
+git push
+cd ../nvim
+git status
+git add .
+git commit -m "added some keymaps for terminals"
+git push
+nvim
+exit
+conda activate python-main
+ipython
+exit
+cd Documents/Python_Scripts/crm-flow-cohorts
+cd Campaign_Input_CSVs
+la
+nvim 2022-11-08.csv
+la
+cd ..
+la
+la
+ranger
+la
+python loopy.py
+nvim Campaign_Input_CSVs/2022-11-08.csv
+python loopy.py
+nvimrc
+exit
+la | grep env
+cd .pyenv
+la
+cd debugpy
+la
+la bin 
+exit
+la
+cd .pyenv
+la
+python -m venv debugpy
+debugpy/bin/python -m pip install debugpy
+nvimrc
+cd Documents/Python_Scripts/crm-flow-cohorts
+la
+nvim
+nvim
+cd ..
+la
+cd 2022-03_imagine_analysis
+la
+nvim .
+conda activate python-main
+la
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nivm .
+nvim .
+nvim .
+exit
+nvimrc
+nvimrc
+nvimrc
+nvimrc
+la
+cd .config/nvim/lua/user
+la
+nvim keymaps.lua
+nvim .
+nvim keymaps.lua
+exit
+exit
+nvim Documents/Python\ Scripts
+cd Documents/Python_Scripts
+la
+nvim 2022-04_QDPR_music
+exit
+cat .ssh/config
+nvimrc
+exit
+which ripgrep
+which rg
+rg -w 'import'
+cd Documents/Python_Scripts
+rg -w "import"
+cd crm-flow-cohorts
+rg -w "import"
+which rg
+apt uninstall rg
+sudo apt remove rg
+conda remove rg
+conda remove ripgrep
+rg
+which rg
+sudo nala update
+sudo nala search rg
+sudo nala search ripgrep
+sudo nala install ripgrep
+nvimrc
+cd Documents/Python_Scripts/crm-flow-cohorts
+la
+cd Campaign_Output_CSVs
+la
+cd 2022-11-08
+la
+rm *
+python loopy.py
+conda activate python-main
+python loopy.py
+clear
+python loopy.py
+exit
+conda activate python-main
+python loopy.py
+python loopy.py
+python loopy.py
+conda activate python-main
+python loopy.py
+ranger
+fzf_open
+fzf_open
+fzf_cd
+nvim .
+conda activate python-main
+nvim .
+nvim .
+nivm .
+nvim
+la
+nvim .
+git add .
+git commit -m "added additional analyses columns"
+git push
+cd Documents/Python_Scripts/crm-flow-cohorts
+la
+conda activate python-main
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+flatpak remote-add flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+flatpak install akira
+flatpak update
+flatpak install akira
+cd Documents/Python_Scripts/crm-flow-cohorts
+conda activate python-main
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+Documents/Python_Scripts/crm-flow-cohorts
+la
+nvim .
+exit
+notes
+exit
+cd Documents/Python_Scripts/crm-flow-cohorts
+conda activate python-main
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+python loopy.py
+cd Documents/Python_Scripts/crm-flow-cohorts
+conda activate python-main
+nvim .
+exit
+nvimrc
+exit
+nvimrc
+exit
+django
+blog
+nvim .
+nvim .
+exit
+django
+blog
+python manage.py tailwind start
+python manage.py tailwind start
+python manage.py tailwind start
+python manage.py tailwind start
+python manage.py tailwind start
+exit
+django
+blog
+la
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+exit
+t
+exit
+blog
+la
+git add .
+git commit -m ""
+git commit -m "made the loop sort of work and added a bit more theming"
+git push
+exit
+cd .config/nvim
+git add .
+git commit -m "added colorizer"
+git push
+notes
+cd Nextcloud/Notes
+la
+ranger 
+\:qa
+exit
+nvimrc
+blog
+la
+cd blog
+la
+ranger .
+nvimrc
+django
+blog
+la
+ipython blog/convert_markdown.py
+ipython blog/convert_markdown.py
+ipython blog/convert_markdown.py
+pip install IPython
+pip install IPython
+ipython blog/convert_markdown.py
+ipython blog/convert_markdown.py
+pip list modules
+exit
+django
+blog
+nvim .
+git pull
+git pull
+nvim .
+nvim .
+django
+blog
+python manage.py tailwind start
+python manage.py tailwind start
+django blog
+python manage.py runserver
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py shell
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+django
+blog
+ipython blog/convert_markdown.py
+ipython
+ipython blog/convert_markdown.py
+ipython blog/convert_markdown.py
+cd ~/Documents/Python_Scripts
+la
+cd crm-flow-cohorts
+cat load_orders.py
+blog
+python manage.py shell
+python manage.py shell
+df
+free
+psmem
+ps auxf
+ps auxf | sort -nr -k 4
+pscpu
+hg
+fzfd
+source ~/.zshrc
+fzfd
+source ~/.zshrc
+fzfd
+man fzf
+source ~/.zshrc
+fzfd
+hg
+729 la
+hg
+729 la
+source ~/.zshrc
+hg
+print "la" | sed -E "s/ *[0-9]*\*? *//" | sed -E "s/\\/\\\\/g"
+print "la" | sed -E "s/ *[0-9]*\*? *//"
+source ~/.zshrc
+hg
+lsblk
+hg
+hg
+source ~/.zshrc
+fzff
+Documents/Python_Scripts/2022-05_bioki-scrape/getLocations.py
+fzfd
+source ~/.zshrc
+fzfd
+exit
+neofetch
+zshrc
+exit
+fzfd
+ranger
+ranger . 
+\:qa
+exit
+zshrc
+django
+blog
+python blog/convert_markdown.py
+python manage.py shell
+python manage.py shell
+python blog/convert_markdown.py
+la
+cd blog
+la
+python convert_markdown.py
+cd ../
+la
+la
+la
+python manage.py shell
+la
+python **
+python blog/convert_markdown.py 
+export DJANGO_SETTINGS_MODULE=jaredsblog.settings
+python blog/convert_markdown.py 
+la
+python -m pip install django
+cd jaredsblog
+la
+cd ..
+la
+cd blog
+la
+python manage.py startapp blog
+cd ..
+python manage.py startapp blog
+python manage.py shell
+exit
+django
+blog
+hg
+python manage.py shell
+exit
+django
+blog
+la
+nvim .
+git add .
+git commit -m "Messing around with databases"
+git push
+exit
+django
+blog
+hg
+source ~/.zshrc
+hg
+source ~/.zshrc
+hg
+python manage.py tailwind start
+exit
+hg
+python manage.py runserver
+django
+blog
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+exit
+>>>>>>> edb0d5efac7d7ea5a22f07c2934c2656d86f69f4
