@@ -56,8 +56,16 @@ alias fd="fdfind"
 
 
 # Do a search through history
+<<<<<<< HEAD
 alias hg='print -z $(sort ~/.config/zsh/.zsh_history | uniq -c | fzf +s --tac | sed -E "s/ *[0-9]*\*? *//")'
 
+# print -z $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac | sed -E 's/ *[0-9]*\*? *//' | sed -E 's/\\/\\\\/g')
+||||||| d8e6e88
+alias hg='sort ~/.config/zsh/.zsh_history | uniq -c | sort | fzf'
+=======
+
+alias hg='sort ~/.config/zsh/.zsh_history | uniq -c | sort | fzf'
+>>>>>>> eeb5fc9fcd69cc14d15f04e2adc8ab365b540550
 
 # Clear the terminal
 alias cl="clear"
