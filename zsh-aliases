@@ -41,11 +41,6 @@ if [ -x "$(command -v trash)" ]; then
     alias rm="trash -i"
 fi
 
-# Aliases for random programs
-if [ -x "$(command -v thunderbird)" ]; then
-  alias thunderbird='nohup thunderbird > ~/.nohup_out &'
-fi
-
 
 # FZF aliases
 alias fzff='fdfind --type f --strip-cwd-prefix --hidden --exclude .git | fzf'
