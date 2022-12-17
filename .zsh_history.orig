@@ -6126,6 +6126,8 @@ la
 exit
 nvim .config/alacritty
 nvim .config/zsh.bak
+exit
+>>>>>>> 0b1cb317f0033cdefb63956f5cf1a2019c0531c7
 nvim .gitconfig
 cd .git
 cd .config/nvim
@@ -7288,6 +7290,8 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 exit
+>>>>>>> edb0d5efac7d7ea5a22f07c2934c2656d86f69f4
+<<<<<<< HEAD
 cd .config/zsh
 git pull
 git add .
@@ -7366,6 +7370,7 @@ la
 nvim.
 nvim .
 nvimrc
+>>>>>>> 5d5dc1b6e1cabc16250957c58aa1429ab90e819e
 django
 blog
 python manage.py shell
@@ -7521,6 +7526,12 @@ blog
 nvim .
 django
 blog
+>>>>>>> 5d5dc1b6e1cabc16250957c58aa1429ab90e819e
+python manage.py tailwind start
+python manage.py tailwind start
+python manage.py tailwind start
+python manage.py tailwind start
+<<<<<<< HEAD
 exit
 django
 blog
@@ -7855,6 +7866,17 @@ la
 cd 1\ -\ Album\ Art\ Space
 la
 cd Richard\ Swift\ -\ Walking\ Without\ Effort
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F71-eH-S9Q7L._SL1500_.jpg&f=1&nofb=1&ipt=69355c7322ae43b6f28254479e7685aee6680bd8db991c3af28c75a5ea5fd1a2&ipo=images"
+cd ../Thrice\ -\ Anthology\ \(disc\ 1\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F91RucAazuUL._SL1500_.jpg&f=1&nofb=1&ipt=8c6f0e9eeee027480137c274e4d33fb3e5dad5909a2670adf88d9cf0b7bca8be&ipo=images"
+cd ../Thrice\ -\ Anthology\ \(disc\ 2\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F91RucAazuUL._SL1500_.jpg&f=1&nofb=1&ipt=8c6f0e9eeee027480137c274e4d33fb3e5dad5909a2670adf88d9cf0b7bca8be&ipo=images"
+cd ../Balogh\ KÃ�lmÃ�n\ és\ a\ Méta\ -\ Gipsy\ Music\ from\ Hungarian\ Villages\ \(disc\ 1\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcps-static.rovicorp.com%2F3%2FJPG_1080%2FMI0001%2F732%2FMI0001732181.jpg%3Fpartner%3Dallrovi.com&f=1&nofb=1&ipt=8654aaddd05aec6baf7d9a5d7eef9efc764d2872f5e921a4bdb22c31866e779d&ipo=images"
+cd ../Balogh\ KÃ�lmÃ�n\ és\ a\ Méta\ -\ Gipsy\ Music\ from\ Hungarian\ Villages\ \(disc\ 2\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcps-static.rovicorp.com%2F3%2FJPG_1080%2FMI0001%2F732%2FMI0001732181.jpg%3Fpartner%3Dallrovi.com&f=1&nofb=1&ipt=8654aaddd05aec6baf7d9a5d7eef9efc764d2872f5e921a4bdb22c31866e779d&ipo=images"
+cd ..
+la
 scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
 cd Documents/Python_Scripts/
 la
@@ -8621,3 +8643,4 @@ notes
 notes
 noves
 notes
+>>>>>>> 5d5dc1b6e1cabc16250957c58aa1429ab90e819e
