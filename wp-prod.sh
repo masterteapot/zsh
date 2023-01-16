@@ -22,3 +22,6 @@ echo "Removed node modules"
 cd $exportlocation
 zip -rq ${exportparent}/${zipname} *
 echo "Zipped the folder"
+cd $exportparent
+rm -r $exportlocation
+echo "Removed the copied files leaving only the zip"
