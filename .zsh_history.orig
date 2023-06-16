@@ -4332,33 +4332,6 @@ ddg "best pokemon game ever"
 source ~/.zshrc
 ddg "best pokemon game ever"
 firefox -h
-firefox -new-tab "ddg: logitech"
-firefox -new-tab https://duckduckgo.com/?t=ffab&q=logitech &
-firefox -new-tab "https://duckduckgo.com/?t=ffab&q=logitech" &
-firefox -new-tab "https://duckduckgo.com/?t=ffab&q=logitech+headquarters" &
-firefox -new-tab ${"https://duckduckgo.com/?t=ffab&q=logitech+headquarters"//" "/"+"} &
-print ${"https://duckduckgo.com/?t=ffab&q=logitech+headquarters"//" "/"+"}
-print ${"https://duckduckgo.com/?t=ffab&q=logitech+headquarters"// /+}
-print ${"https://duckduckgo.com/?t=ffab&q=logitech headquarters"// /+}
-print ${"https://duckduckgo.com/?t=ffab&q=logitech headquarters"//" "/"+"}
-echo ${"https://duckduckgo.com/?t=ffab&q=logitech headquarters"//" "/"+"}
-echo ${logitech headquarters// /+}
-echo ${logitech\ headquarters// /+}
-echo ${"logitech\ headquarters"// /+}
-echo ${"logitech\ headquarters"/ /+}
-echo ${"logitech\ headquarters"/ /poop}
-echo ${"logitech\ headquarters"/head/poop}
-echo ${"logitechheadquarters"/head/poop}
-echo ${logitechheadquarters/head/poop}
-query="https://duckduckgo.com/?t=ffab&q=logitech headquarters"
-echo "${query/head/poop}"
-echo "${query/ /+}"
-query="https://duckduckgo.com/?t=ffab&q=logitech headquarters location"
-echo "${query/ //+}"
-echo "${query// /+}"
-ddg "longest string you can store in a mysql database"
-zshrc
-nvimrc
 notes
 notes
 notes
@@ -6044,7 +6017,6 @@ notes
 notes
 notes
 exit
-<<<<<<< HEAD
 notes
 cd Nextcloud/Notes
 la
@@ -6154,8 +6126,6 @@ la
 exit
 nvim .config/alacritty
 nvim .config/zsh.bak
-exit
->>>>>>> 0b1cb317f0033cdefb63956f5cf1a2019c0531c7
 nvim .gitconfig
 cd .git
 cd .config/nvim
@@ -6194,7 +6164,6 @@ la
 git add .
 git commit -m "still merging history files"
 git log
-git merge master HEAD
 git checkout master
 git push origin master
 la
@@ -6909,124 +6878,6 @@ la
 nvim .
 nvim .
 exit
-<<<<<<< HEAD
-la env
-la | grep venv
-la | grep env
-la
-cd .renpy
-la
-cd ..
-cd .config/nvim
-la
-git pull
-cd ../zsh
-git pull
-git mergetool
-yay -Sy
-yay -S nvimdiff
-zshrc
-zshrc
-fzf_yay
-cd ../nvim
-git pull
-git mergetool
-git pull
-git status
-git mergetool --tool-help
-git mergetool --tool=nvimdiff
-git add .
-git commit -m "merged in stuff"
-git pull
-git config pull.rebase false
-git pull
-git mergetool --tool=nvimdiff
-git mergetool --tool=vimdiff
-git mergetool --tool=vimdiff
-la
-nvim .
-git add.
-git add .
-la
-git commit -m "merged in treesitter"
-git pull
-git add .
-git commit -m "merged in treesitter"
-git push
-nvimrc
-nvimrc
-cd .config/zsh
-la
-git pull
-nvim .
-cd ../zsh
-git pull
-la
-rm .zsh_history
-git pull
-git mergetool --tool=vimdiff
-git pull
-git mergetool --tool=vimdiff
-git merge
-git add .
-git commit -m "preparing for a merge"
-git pull
-git mergetool --tool=vimdiff
-git mergetool --tool=nvimdiff
-git merge --abort
-git pull
-git mergetool --tool=nvimdiff
-git add .
-git commit -m "preparing for a merge"
-git push
-git pull
-git status
-blog
-zshrc
-exit
-blog
-mkdir .pyenv
-cd .pyenv
-python -m venv django
-la
-django
-pwd
-la
-rm -r django
-cd ..
-rm -r .pyenv
-cd ~
-mkdir .pyenv
-cd .pyenv
-python -m venv django
-django
-cd ..
-cd Website_Projects/jaredsblog
-la
-rm -r jareds-venv
-la
-cd jaredsblog
-la
-git pull
-la
-pip install -r requirements.txt
-python -m pip install --upgrade pip
-python manage.py makemigrations
-python manage.py migrations
-python manage.py migrate
-python manage.py tailwind start
-nvim .
-git add .
-git commit -m "added some colors"
-git push
-django
-blog
-python manage.py runserver
-django
-blog
-nvim .
-=======
-cd Documents/Python_Scripts/crm-flow-cohorts
 git add .
 git commit -m "Updated to have better loopy configs and added costs"
 git push
@@ -7437,4 +7288,2607 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 exit
->>>>>>> edb0d5efac7d7ea5a22f07c2934c2656d86f69f4
+cd .config/zsh
+git pull
+git add .
+git commit -m 'preparing for a merge'
+git pull
+git mergetool --tool=nvimdiff
+git add .
+git commit -m "prepped"
+git pull
+git push
+cd ../nvim
+git pull
+cd ~
+blog
+git pull
+django
+hg
+exit
+django
+blog
+hg
+exit
+django
+blog
+python blog/convert_markdown.py 
+python blog/convert_markdown.py 
+python blog/convert_markdown.py 
+python blog/convert_markdown.py 
+python blog/convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+la
+sqlite3 db.sqlite3
+python convert_markdown.py 
+python convert_markdown.py 
+python convert_markdown.py 
+sqlite3 db.sqlite3
+python convert_markdown.py 
+sqlite3 db.sqlite3
+exit
+django
+blog
+nvim .
+exit
+django
+blog
+nvim .
+exit
+blog
+git add .
+git commit -m "Got the databases working"
+git push
+exit
+=======
+cd Documents/Python_Scripts/crm-flow-cohorts
+la
+nvim.
+nvim .
+nvimrc
+django
+blog
+python manage.py shell
+exit
+<<<<<<< HEAD
+django
+blog
+hg
+python manage.py tailwind start
+python manage.py tailwind start
+python manage.py tailwind init
+python manage.py tailwind start
+la
+cd theme
+la
+npm install
+cd ..
+la
+python manage.py tailwind start
+npm install -g cross-env
+sudo npm install -g cross-env
+python manage.py tailwind start
+python manage.py tailwind
+python manage.py tailwind install
+python manage.py tailwind start
+exit
+django
+blog
+hg
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+exit
+django
+blog
+git pull
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+exit
+django
+blog
+python manage.py tailwind start
+python manage.py tailwind start
+python manage.py tailwind start
+python manage.py tailwind start
+exit
+sudo yay -Syu
+exit
+django
+blog
+nvim .
+git add .
+git commit -m "Got the loop working"
+git push
+blog
+django
+nvim .
+git add .
+git commit -m "Mobile formatting"
+git push
+blog
+django
+=======
+blog
+sqlite3 db.sqlite3
+sqlite3 db.sqlite3
+exit
+django
+blog
+python manage.py shell
+sqlite3 db.sqlite3
+python manage.py tailwind start
+exit
+blog
+cd ~/.config/zsh
+git add .
+git commit -m "Making fzf work better for hg and folders"
+git push
+git pull
+git mergetool
+git add .
+git commit -m "merging fzf stuff"
+git push
+cd ../nvim
+git pull
+cd ../zsh
+git pull
+blog
+git pull
+django
+python manage.py makemigrations
+python manage.py migrate
+python convert_markdown.py
+nvim .
+exit
+django
+blog
+python convert_markdown.py
+python convert_markdown.py
+delete from blog_category where id < 100;
+delete from blog_category where id < '100';
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python manage.py shell
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+git add .
+git commit -m "Finished getting the markdown generator to work. Added initial post loop to homepage."
+git push
+django
+blog
+nvim .
+django
+blog
+exit
+django
+blog
+git pull
+python manage.py makemigrations
+python manage.py migrate
+sqlite3 db.sqlite3
+python manage.py migrate
+python convert_markdown.py
+python convert_markdown.py
+python manage.py runserver
+exit
+blog
+django
+nvim .
+exit
+django
+blog
+python manage.py runserver
+git add .
+git commit -m "Fixed navbar on desktop"
+git push
+python manage.py runserver
+exit
+django
+blog
+python manage.py tailwind start
+exit
+notes
+exit
+notes
+exit
+neofetch
+pscpu
+bpytop
+neofetch
+exit
+ncmpcpp
+django
+blog
+git pull
+git status
+nvim .
+la
+cd .
+cd ..
+la
+cd ..
+la
+cd ..
+la
+man yay
+ddg "how to remove packages with yay"
+blog
+django
+git pull
+cd ~/.config/zsh
+git pull
+cd ../nvim
+git pull
+sudo yay -Syu
+cd .ssh
+la
+mkdir /etc/jaredblog
+sudo mkdir /etc/jaredblog
+nvim /etc/jaredblog/config.json
+sudo nvim /etc/jaredblog/config.json
+exit
+nvim /etc/jaredblog/config.json
+exit
+cd .ssh
+la
+ssh keygen
+ssh-keygen -t ed25519 -C jared-key
+la
+nvim config
+la
+sudo chmod 700 jared-key_id_ed25519
+sudo chmod 700 config
+la
+ls
+cat jared-key_id_ed25519.pub
+cat config
+ssh jared-blog
+nvim config
+ssh jared-blog
+nvim config
+ssh jared-blog
+ssh jared-blog
+blog
+pwd
+la
+exit
+sudo nvim /etc/jaredblog/config.json
+ssh jared-blog
+exit
+nvim .zshrc
+ssh jared-blog
+exit
+django
+blog
+nvim .
+la
+nvim .gitignore
+git add .
+git commit -m "Updated settings to use a config file"
+git push
+cd /etc/jaredblog
+la
+cat config.json
+scp config.json jared-blog:~/
+ssh jared-blog
+cl
+notes
+cd Website_Projects/jaredsblog
+la
+cd jaredsblog
+la
+cd blog/markdown
+la
+blog
+nvim .
+git add .
+git commit -m "removing the diamond post"
+git push
+git pull
+ssh jared-blog
+ssh jared-blog
+cd .pyenv
+python -m venv spiderfoot
+la
+source spiderfoot/bin/activate
+cd ~/Downloads
+mkdir spiderfoot
+cd spiderfoot
+wget https://github.com/smicallef/spiderfoot/archive/v4.0.tar.gz
+ tar zxvf v4.0.tar.gz\
+ cd spiderfoot-4.0
+ pip3 install -r requirements.txt
+ python3 ./sf.py -l 127.0.0.1:5001
+cd Documents/Python_Scripts/
+la
+cd 2022-05_Wordle
+la
+python wordle_heavy.py
+python wordle_heavy.py
+ssh jared@jaredskane.com
+django
+blog
+nvim .
+nvim .
+git add .
+git commit -m "Modified the theming for single pages on mobile"
+git push
+django
+blog
+git pull
+cd ~/.config/nivm
+git pull
+blog
+python manage.py tailwind start
+git pull
+git add .
+git commit -m "working on razer"
+nvim /etc/jaredblog/config.json
+sudo nvim /etc/jaredblog/config.json
+blog
+python manage.py tailwind start
+python manage.py tailwind start
+django
+blog
+python manage.py runserver
+ssh jared@jaredskane.com
+cat /usr/share/dict/usa
+anaconda-navigator
+cd Documents/Python_Scripts/
+2022-05_Wordle
+la
+python wordle_heavy.py
+cat wordle.py
+nvim wordle.py
+cd Music
+la
+cd Ballydowse\ -\ The\ Land,\ the\ Bread,\ and\ the\ People
+wget -O front-cover.jpg https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F718sBx-S6BL._SS500_.jpg&f=1&nofb=1&ipt=5956fa4481c7fb1267f454e5c1e4511444a756e9ec9adead1f7e5eebc6a1e1a8&ipo=images
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F718sBx-S6BL._SS500_.jpg&f=1&nofb=1&ipt=5956fa4481c7fb1267f454e5c1e4511444a756e9ec9adead1f7e5eebc6a1e1a8&ipo=images"
+la
+wget -O front-cover.jpg ""
+cd ../Narcissus\ -\ Becoming\ Leviathan
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2FDT2NnwJhMhp6_eVogimborW1b5E%3D%2Ffit-in%2F600x600%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-1075854-1436926709-1140.jpeg.jpg&f=1&nofb=1&ipt=ce1b11beb6c740130140ed47e54198562a9b81201ca6905c4088076e0116a818&ipo=images"
+cd ../Joy\ Electric\ -\ Workmanship
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ft2.genius.com%2Funsafe%2F600x606%2Fhttps%3A%2F%2Fimages.genius.com%2Fac806e2b6f3d123b0b690586f477966a.595x600x1.jpg&f=1&nofb=1&ipt=5ca08c097065b7ecd7aebd6e909ac19675db73b7178991728e4c5c592dac2397&ipo=images"
+cd ../Blktop\ Project\ -\ Blktop\ Project
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F51KMRWKFYTL.jpg&f=1&nofb=1&ipt=ddc3de11f91536014c1a4825e3101c6c2a42da0dd07b4a9500aec4d87729f8b8&ipo=images"
+cd ../Bon\ Voyage\ -\ Bon\ Voyage
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.scdn.co%2Fimage%2Fdf460ad52b04800581443f657debae96c652253f&f=1&nofb=1&ipt=d69159b10c2ce9ee029856eca86cc7e87cca5414dc1fc7b6f93b3e3cd11e3b60&ipo=images"
+cd ..
+la
+cd Carols\ Gloria\ -\ Said\ Fantasy
+la
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ff4.bcbits.com%2Fimg%2Fa2677631923_10.jpg&f=1&nofb=1&ipt=21d6e23b1421e45456677c1248f1197a654b2d2d9ee6b374dc109b1633c62ba2&ipo=images"
+cd ../Starflyer\ 59\ -\ Plugged\ \(disc\ 1\)
+la
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2Fc6ORV5baD2KvkJ_114cDyphwTAA%3D%2Ffit-in%2F600x594%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-9456549-1480888536-9991.jpeg.jpg&f=1&nofb=1&ipt=5ad1369dcb506d09386eb022c047e8f921e6acdf291c65df9a19f7d6f180e1bf&ipo=images"
+cd ..
+la
+cd Scales\ Of\ Motion\ -\ Nocturnes
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ff4.bcbits.com%2Fimg%2Fa3263869157_16.jpg&f=1&nofb=1&ipt=2f476545d8514d6b581daa70c66fe2f1f279c57afca7e0e28ed82d78b1cdcefd&ipo=images"
+cd ../Various\ Artists\ -\ Hello\ Vinyl\ \(disc\ 1\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvelvetbluemusic.com%2Fshop%2Fimages%2F4419%2FVelvet%2BBlue%2BMusic%2B%27Hello%2BVinyl%27.jpg&f=1&nofb=1&ipt=6790f295de9475b0ad877843a36aec349960d415651ce40d15375163afca4126&ipo=images"
+cd ../Various\ Artists\ -\ Hello\ Vinyl\ \(disc\ 2\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvelvetbluemusic.com%2Fshop%2Fimages%2F4419%2FVelvet%2BBlue%2BMusic%2B%27Hello%2BVinyl%27.jpg&f=1&nofb=1&ipt=6790f295de9475b0ad877843a36aec349960d415651ce40d15375163afca4126&ipo=images"
+cd ..
+la
+cd Various\ -\ Past\ \&\ Present\ \#1
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvelvetbluemusic.com%2Fshop%2Fimages%2F4880%2Fvbm_PastPresent.jpg&f=1&nofb=1&ipt=a406ba7d9fe4bfecc364d00ca733a4a2cf563a8cadfc76f39e27e381bf53f65d&ipo=images"
+cd ../Various\ -\ Past\ \&\ Present\ \#2
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvelvetbluemusic.com%2Fshop%2Fimages%2F4880%2Fvbm_PastPresent.jpg&f=1&nofb=1&ipt=a406ba7d9fe4bfecc364d00ca733a4a2cf563a8cadfc76f39e27e381bf53f65d&ipo=images"
+cd ..
+la
+mv -r Carols\ Gloria\ -\ Said\ Fantasy Said\ Fantasy\ -\ Carols\ Gloria
+mv Carols\ Gloria\ -\ Said\ Fantasy Said\ Fantasy\ -\ Carols\ Gloria
+la
+hg scp
+scp -C -r * jaredskane:/mnt/jellies/Music/
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+la | grep And
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+la
+cd Videos
+la
+fzfd
+fzf_open
+sudo yay -S fdfind
+yay -S fd
+find Option
+man find
+find -o 2 -t f Option
+find -o 2 -t f -q "Option"
+man find
+find . -name "Option" -type f -depth 1
+find . -depth 1 -name "Option" -type f
+find ./ -depth 1 -name "Option" -type f
+find ./ -name "*Hawk*" -type f
+find ./ -name "*Hawk*" -type d
+find ./ -name "*Hawk*" -type f -depth 1
+find -depth 1 ./ -name "*Hawk*" -type f
+find ./ -name "*Hawk*" -depth 1 -type f -depth 1
+find ./ -name "*Hawk*" -depth 1 -type f
+find ./ -depth 1 -name "*Hawk*" -type f
+find -depth 1 ./ -name "*Hawk*" -type f
+man find
+find -depth ./ -name "*Hawk*" -type f -maxdepth 1
+find ./ -name "*Hawk*" -type f -maxdepth 1
+find ./ -maxdepth 1 -name "*Hawk*" -type f
+find ./ -maxdepth 1 -name "*Prevail*" -type f
+find ./ -maxdepth 1 -name "*revail*" -type f
+find ./ -maxdepth 1 -name "*.flac" -type f
+find ./ -maxdepth 2 -name "*.flac" -type f
+find ./ -maxdepth 2 -name "Scourge.flac" -type f
+find ./ -maxdepth 2 -name "*olo.flac" -type f
+find ./ -maxdepth 2 -name "*olo.flac" -type f
+find ./ -maxdepth 2 -name "*olo*" -type f
+la
+find ./ -maxdepth 2 -name "*?*" -type f
+find ./ -maxdepth 2 -name "*\?*" -type f
+cd Documents/Python_Scripts/
+2022-05_Wordle
+la
+python wordle_heavy.py
+cd Music/1\ -\ Album\ Art\ Space
+la
+cd Ballydowse\ -\ Out\ of\ the\ Fertile\ Crescent
+wget -O front-cover.jpg "https://f4.bcbits.com/img/a3058369291_5.jpg"
+cd ../Crashdog\ -\ Cashists,\ Fascists,\ and\ Other\ Fungus
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcps-static.rovicorp.com%2F3%2FJPG_500%2FMI0002%2F267%2FMI0002267326.jpg%3Fpartner%3Dallrovi.com&f=1&nofb=1&ipt=704a2db07ff88c68e5c483642eaa368b7e51747ad3ad1a9b0a8b75274efdd48b&ipo=images"
+cd ../Crashdog\ -\ Mud\ Angels
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ff4.bcbits.com%2Fimg%2Fa3525526935_16.jpg&f=1&nofb=1&ipt=53e2486abe00f6cc1793e14a6e44ab42271ffecb2fe6e8a584e2867e090c974c&ipo=images"
+cd ../Delia\ Gonzalez\ \&\ Gavin\ Russom\ -\ The\ Days\ of\ Mars
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcps-static.rovicorp.com%2F3%2FJPG_500%2FMI0002%2F431%2FMI0002431452.jpg%3Fpartner%3Dallrovi.com&f=1&nofb=1&ipt=9d193ccdbdc708c288e164a371f041bf4d8b77e624be4246b566667a347e65cb&ipo=images"
+cd ../John\ Moreland\ \&\ The\ Black\ Gold\ Band\ -\ Endless\ Oklahoma\ Sky
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.thealternateroot.com%2Fuploads%2F1%2F0%2F4%2F1%2F104195916%2Fjohmorbgbaa_orig.jpg&f=1&nofb=1&ipt=327f76d853ab28ab062a5a0c3bd6e00824d4990475275006963b7a29fb23df14&ipo=images"
+cd ..
+la
+cd ALL\ -\ Descendents\ _\ Live\ Plus\ One\ \(disc\ 1\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2F3MPyP5-5jmUSiiR6PDySVtVHnQM%3D%2Ffit-in%2F300x300%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(40)%2Fdiscogs-images%2FR-2870929-1324054704.jpeg.jpg&f=1&nofb=1&ipt=7f3c354062bfc9f4ba5ffebd37a64c0b5165609b0ea3090598e7c05578fc0f0d&ipo=images"
+cd ../ALL\ -\ Descendents\ _\ Live\ Plus\ One\ \(disc\ 2\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2F3MPyP5-5jmUSiiR6PDySVtVHnQM%3D%2Ffit-in%2F300x300%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(40)%2Fdiscogs-images%2FR-2870929-1324054704.jpeg.jpg&f=1&nofb=1&ipt=7f3c354062bfc9f4ba5ffebd37a64c0b5165609b0ea3090598e7c05578fc0f0d&ipo=images"
+cd ../Isla\ Invisible\ -\ EP\ 1\ \&\ 2
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F61PbHObnz2L._SY355_.jpg&f=1&nofb=1&ipt=e4d9848ddd2545e4fbc7886c3631ae2771de226fc483c2595ecf6061430696b7&ipo=images"
+cd ..
+la
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+cl
+la
+rm *
+y
+y
+y
+la
+cd ..
+la
+la
+exit
+cd Music/1\ -\ Album\ Art\ Space
+la
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+cd Music/1\ -\ Album\ Art\ Space
+la
+cd The\ Crucified\ -\ The\ Crucified
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.metalkingdom.net%2Falbum%2Fcover%2F2019%2F05%2F2%2F131419-The-Crucified-The-Crucified.jpg&f=1&nofb=1&ipt=8803957a453fa1844b5580aa59ee7696b85ba962264cdffeff18bf6c64519972&ipo=images"
+cd ../The\ Dingees\ -\ The\ Crucial\ Conspiracy
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcps-static.rovicorp.com%2F3%2FJPG_500%2FMI0000%2F302%2FMI0000302668.jpg%3Fpartner%3Dallrovi.com&f=1&nofb=1&ipt=90b7cc06d95dd0b7b3d477c0f94a6ebc2e06b9bca1bbfb3c6979a89baf35a810&ipo=images"
+cd ../Various\ Artists\ -\ Surf\ Guitar\ Greats
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2F4Szu7OX3_Yslhe3ZyPtLRZGhK90%3D%2Ffit-in%2F600x595%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-2361117-1516575563-6689.jpeg.jpg&f=1&nofb=1&ipt=ca8aacbbfd39463fda1bf5e5ac87a56a8c4afc05393c70c186d71bc5ea3b1da8&ipo=images"
+cd ../Xalt\ -\ Under\ The\ Ruins
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-1ehD6Pi5ESU%2FUvEVlQvHV3I%2FAAAAAAAAHJw%2FgccpCLfdsOw%2Fs1600%2FXalt%2B-%2BUnder%2BThe%2BRuins.jpg&f=1&nofb=1&ipt=05faf8d839312eb52236115d94606aaccb77a24b126f64eb9a6354c6cc311ee9&ipo=images"
+cd ..
+la
+find ./ -maxdepth 2 -name "*\?*" -type f
+ssh jared@jaredskane.com
+cat .zshrc
+cd .ssh
+la
+cat jared-key_id_ed25519.pub
+cd ~/Music
+la
+la
+cd 1\ -\ Album\ Art\ Space
+la
+cd Richard\ Swift\ -\ Walking\ Without\ Effort
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+cd Documents/Python_Scripts/
+la
+cd 2022-05_Wordle
+la
+nvim .
+python wordle_heavy.py
+nvim .
+python wordle_heavy.py
+nvim .
+python wordle_heavy.py
+cl
+python wordle_heavy.py
+nvim .
+exit
+bpytop
+sudo shutdown now
+ cd '/home/jared/Music/1 - Album Art Space'
+ clear
+ cd '/home/jared/Music/1 - Album Art Space/Five Iron Frenzy - Our Newest Album Ever'
+ cd '/home/jared/Music/1 - Album Art Space'
+ssh jared@jaredskane.com
+find ./ -maxdepth 2 -name "*\?*" -type f
+find ./ -maxdepth 2 -name "*\,*" -type f
+cd Music/1\ -\ Album\ Art\ Space
+la
+cd ..
+la
+la
+la The\ Offspring\ -\ Smash
+cl
+la
+cd 1\ -\ Album\ Art\ Space
+la
+cln
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+find ./ -maxdepth 2 -name "*\?*" -type f
+find ./ -maxdepth 2 -name "*\?*" -type f
+find ./ -maxdepth 2 -name "*\,*" -type f
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+la
+cd ..
+la
+la | count -l
+man count
+count -h
+count --help
+cl
+hg
+count
+la | wc -l
+la
+la Joy\ Electric\ -\ Montgolfier\ and\ the\ Romantic\ Balloons
+la
+la 1\ -\ Album\ Art\ Space
+rm -r 1\ -\ Album\ Art\ Space
+la
+la
+cd John\ Davis\ -\ John\ Davis
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F414SNR2MEBL._SX300_QL70_ML2_.jpg&f=1&nofb=1&ipt=fd52a51374774d8c262d26568c7add50ce9df86a2275b8f5e9e5b4a77a516786&ipo=images"
+cd ../Joy\ Electric\ -\ Montgolfier\ and\ the\ Romantic\ Balloons
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2Fmfy2-sUnMdA_zmAj8AOucdRNjCo%3D%2Ffit-in%2F600x600%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-578885-1202257312.jpeg.jpg&f=1&nofb=1&ipt=4a55189898441dfb175f4be4ffd4e0c4821ff1cadf51ab824449dc16ba700377&ipo=images"
+cd ../Starflyer\ 59\ -\ Never\ Play\ Covers
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2FSE8AAOSwb7ddP5CC%2Fs-l400.jpg&f=1&nofb=1&ipt=78e3b3d47697fc24dc8ebd53a2f41dc6c5fc1ef171dde2165c47e6db63320568&ipo=images"
+cd ../Training\ for\ Utopia\ -\ Plastic\ Soul\ Impalement
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F510gOrtGiSL.jpg&f=1&nofb=1&ipt=b61b8d47af59fcddd7cbca7895c0ccb7728663aed5a69e21552e88ec9423a24e&ipo=images"
+cd ../Various\ Artists\ -\ This\ Is\ Solid\ State,\ Volume\ 1
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F51aZ6cw2imL.jpg&f=1&nofb=1&ipt=4eba26fe5b483bc17c93f8e15c54f35eefe29da445afa22f193f4b32f0a04347&ipo=images"
+cd ..
+la
+cd dear\ ephesus\ -\ the\ absent\ sounds\ of\ me
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ff4.bcbits.com%2Fimg%2Fa3866879582_10.jpg&f=1&nofb=1&ipt=b09f2e80129fac47f377f03da408b931f0a020b174c69965dfce6fbfc58a8b79&ipo=images"
+cd ../Los\ Mel-Tones\ -\ Surf\ Before\ Sunrise
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2FY4CNJ9X7sb1h8jl4-EFNeIiHJbo%3D%2Ffit-in%2F500x496%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(90)%2Fdiscogs-images%2FR-5324594-1390579030-5026.jpeg.jpg&f=1&nofb=1&ipt=e11372e71c3b30b9d76aa7d982aec6cf0d7f1cece09e738b510889de5fb9fb37&ipo=images"
+cd ../VA\ -\ I\'m\ Your\ Biggest\ Fan\ Volume\ 1
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2F4CsAAOxywh1TF5Qt%2Fs-l400.jpg&f=1&nofb=1&ipt=8f994420dc75a4d0b324c1822e930c2991092b56a81388849e69c2c35c037020&ipo=images"
+cd ..
+la
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+cd Down
+cd ~/Downloads
+la
+jk_extract_music
+cd Music
+la
+ssh jared@jaredskane.com
+ssh jared@jaredskane.com
+ssh jared@jaredskane.com
+ cd /home/jared/Music/1_Upload
+ clear
+find ./ -maxdepth 2 -name "*\,*" -type f
+ cd '/home/jared/Music/1_Upload/Bad Religion - Christmas Songs'
+ cd /home/jared/Music/1_Upload
+ cd '/home/jared/Music/1_Upload/68 - Two Parts Viper'
+ cd /home/jared/Music/1_Upload
+ cd '/home/jared/Music/1_Upload/Various Artists - Happy Christmas Volume 3'
+ cd /home/jared/Music/1_Upload
+ cd '/home/jared/Music/1_Upload/Relient K - Let It Snow Baby… Let It Reindeer'
+find ./ -maxdepth 2 -name "*\?*" -type f
+ cd /home/jared/Music/1_Upload
+ cd '/run/media/jared/SanDisk Extreme'
+ cd '/run/media/jared/SanDisk Extreme/Music Ripped Thanksgiving'
+ cd '/run/media/jared/SanDisk Extreme'
+ cd /home/jared/Music/1_Upload
+find ./ -maxdepth 2 -name "*\?*" -type f
+ cd '/home/jared/Music/1_Upload/Various Artists - Happy Christmas Volume 3'
+ cd /home/jared/Music/1_Upload
+ cd '/home/jared/Music/1_Upload/Bad Religion - Christmas Songs'
+ cd /home/jared/Music/1_Upload
+ cd '/home/jared/Music/1_Upload/Various Artists - Happy Christmas Volume 1'
+ cd /home/jared/Music/1_Upload
+ cd '/run/media/jared/SanDisk Extreme'
+ cd '/run/media/jared/SanDisk Extreme/Music Ripped Thanksgiving'
+find ./ -maxdepth 2 -name "*\?*" -type f
+find ./ -maxdepth 2 -name "*\?*" -type f
+find ./ -maxdepth 2 -name "*\:*" -type f
+find ./ -maxdepth 2 -name "*:*" -type f
+find ./ -maxdepth 2 -name "*\,*" -type f
+find ./ -maxdepth 2 -name "*\,*" -type f
+find ./ -maxdepth 2 -name "*\,*" -type f
+ssh
+ssh jared@jaredskane.com
+cd Music
+la
+rm -r Various\ Artists\ -\ Happy\ Christmas,\ Volume\ 5
+la
+la
+cd Various\ -\ Flying\ Tart\ Records\ Presents\ Christmas\ In\ Heaven
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2F~98AAOSwtLpdU~uh%2Fs-l640.jpg&f=1&nofb=1&ipt=03a4959bc0bd79f2d8dcf1392c50011926b39c5d446af3c547bde5b35b34b317&ipo=images"
+cd ../Various\ Artists\ -\ Happy\ Christmas\ Volume\ 5
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.discogs.com%2FPWNfaskGTvGZfIqKNOPlZxbs44I%3D%2Ffit-in%2F300x300%2Ffilters%3Astrip_icc()%3Aformat(jpeg)%3Amode_rgb()%3Aquality(40)%2Fdiscogs-images%2FR-7829436-1449674762-6872.jpeg.jpg&f=1&nofb=1&ipt=8e5f5fbc062e3d6519b015299ac735bb2c0423a28e825e5b79607067fd98a06e&ipo=images"
+cd .
+cd ..
+la
+rm -r 1_Upload
+la
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+cd Music/1_Upload
+la
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+la
+cd /
+ncdu .
+exit
+sudo shutdown now
+ipython
+cd .config/zsh
+la
+nvim .
+exit
+python
+cd Music
+la
+python
+ssh jared@jaredskane.com
+ssh jared@jaredskane.com
+cd Music
+find ./ -maxdepth 2 -name "*\,*"
+find ./ -maxdepth 2 -name "*\,*"
+find ./ -maxdepth 2 -name "*\:*"
+find ./ -maxdepth 2 -name "*:*"
+find ./ -maxdepth 2 -name "*\?*"
+cd Music/1_Upload
+cd Music/1_upload
+la
+cd Havalina\ Rail\ Co.\ -\ Russian\ Lullabies
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopuszine.us%2F_assets%2Freviews%2F_mediumCropped%2Frussian-lullabies-havalina.jpg&f=1&nofb=1&ipt=4ade2044824364452320d0416a0dfd64c501f837ec4e675a068f801491a66c02&ipo=images"
+cd ../Sammy\ Horner\ -\ Far\ Away\ Places
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.independent.ie%2Fregionals%2Fwexfordpeople%2Fnews%2F53245%2F40096034.ece%2FAUTOCROP%2Fw620%2F2021-02-16_wex_67468274_I1.JPG&f=1&nofb=1&ipt=a0864c4faacba90b6fdf028dfb794086434652cf68b9eeb2a5fb6ab1f4db6114&ipo=images"
+cd ../Rev.\ Sam\ And\ The\ Outcasts\ -\ Rev.\ Sam\ And\ The\ Outcasts
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ff4.bcbits.com%2Fimg%2Fa3213664012_10.jpg&f=1&nofb=1&ipt=cf36f4899dd4fc5e5527e6a2738f1c122c0bbe3d8a72b2d307311095fa4ee577&ipo=images"
+cd ../Starflyer\ 59\ -\ Ghosts\ of\ the\ Past\ \(disc\ 1\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F_s88scOGAg14%2FSrphx6gY5gI%2FAAAAAAAACMM%2FywHezOkNK0Q%2Fs800%2Fghosts_coversm.jpg&f=1&nofb=1&ipt=645e5de7356f9ff2082d00c033a1ff8cb40c9505c0953723fbdafd3184179cbc&ipo=images"
+cd ../Starflyer\ 59\ -\ Ghosts\ of\ the\ Past\ \(disc\ 2\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F_s88scOGAg14%2FSrphx6gY5gI%2FAAAAAAAACMM%2FywHezOkNK0Q%2Fs800%2Fghosts_coversm.jpg&f=1&nofb=1&ipt=645e5de7356f9ff2082d00c033a1ff8cb40c9505c0953723fbdafd3184179cbc&ipo=images"
+ssh jared@jaredskane.com
+ssh jared@jaredskane.com
+cd Music/1_upload
+la
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+la
+cd ..
+rm -r 1_upload
+la
+cd 1_upload
+la
+find ./ -maxdepth 2 -name "*\?*"
+find ./ -maxdepth 2 -name "*\,*"
+find ./ -maxdepth 2 -name "*:*"
+find ./ -maxdepth 2 -name "*\!*"
+cd Music/1_upload
+cd Havalina\ Rail\ Co.\ -\ Russian\ Lullabies
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcps-static.rovicorp.com%2F3%2FJPG_250%2FMI0000%2F059%2FMI0000059508.jpg%3Fpartner%3Dallrovi.com&f=1&nofb=1&ipt=4c02ca968efdf22586a327e5334b917d7e78cd5a91f85ad099a36f7925965aae&ipo=images"
+la
+mv front-cover.jpg Havalina\ Rail\ Co.\ -\ Havalina\ Rail\ Co.
+la
+cd Thee\ Spivies\ -\ Ready\ or\ Not\ Here\ We\ Come
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71jnaoZ0JhS._SS500_.jpg&f=1&nofb=1&ipt=3d189cfd2160803504dbd858d0e23e793f0e0ed68450eaa3791a1e23e9dd3374&ipo=images"
+cd ../Ester\ Drang\ -\ The\ Appearances\ EP
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopuszine.us%2F_assets%2Freviews%2F_mediumCropped%2Fappearances-ester-drang.jpg&f=1&nofb=1&ipt=97cd342ab8275d9f78c18bcdc224d35ba49f777cbf4ca2be9b2f5193259161e4&ipo=images"
+cd ../Peg\ \&\ The\ Rejected\ -\ 4th\ Wave\ \&\ 2nd\ Set
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ff4.bcbits.com%2Fimg%2Fa2405949220_5.jpg&f=1&nofb=1&ipt=82908cb0fbe1987ef53a5154a90602c4470f47df72b98f69c8c454a79892e1f1&ipo=images"
+cd ../Terry\ Scott\ Taylor\ -\ Songs\ For\ The\ Day\ After\ Christmas
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2F7dMAAOSwvxBeWzob%2Fs-l400.jpg&f=1&nofb=1&ipt=d7971f8a1587cb6131e6514bceace6af55510001596592781537ac40c019e568&ipo=images"
+cd ../Toots\ \&\ The\ Maytals\ -\ Time\ Tough\ The\ Anthology\ \(disc\ 1\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcps-static.rovicorp.com%2F3%2FJPG_500%2FMI0000%2F100%2FMI0000100149.jpg%3Fpartner%3Dallrovi.com&f=1&nofb=1&ipt=87c4bd708958c468c9809d6673271db586302a66391031a9b226b5f5dc2ed1c1&ipo=images"
+cd ../Toots\ \&\ The\ Maytals\ -\ Time\ Tough\ The\ Anthology\ \(disc\ 2\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcps-static.rovicorp.com%2F3%2FJPG_500%2FMI0000%2F100%2FMI0000100149.jpg%3Fpartner%3Dallrovi.com&f=1&nofb=1&ipt=87c4bd708958c468c9809d6673271db586302a66391031a9b226b5f5dc2ed1c1&ipo=images"
+cd ../the\ Electrics\ -\ Reel\ Folk\'n\'Rock\'n\'Roll
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F51LPkEmlapL.jpg&f=1&nofb=1&ipt=5b19786fbd89e2e3bf926bec0e8aa16e888332532932e934371e1c86ee5c30e0&ipo=images"
+cd ../
+la
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+ssh jared@jaredskane.com:/mnt/jellies/Music
+ssh jared@jaredskane.com:
+ssh jared@jaredskane.com
+cd Music/1_upload
+la
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+exit
+cd Music
+find ./ -maxdepth 2 -name "*\!*"
+find ./ -maxdepth 2 -name "*:*"
+find ./ -maxdepth 2 -name "*\:*"
+find ./ -maxdepth 2 -name "*\,*"
+find ./ -maxdepth 2 -name "*\?*"
+cd Eso-Charis\ -\ Eso-Charis
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.x2Ff2dxFWc7JBadQRc8RXwHaHa%26pid%3DApi&f=1&ipt=c3b987132adf1c04e080191f173b7ec2cfed0a557f9cbbe5fd0ed0d759e7afef&ipo=images"
+cd ../Michael\ Knott\ -\ Definitive\ Collection
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F61yAMEbVg7L._SY355_.jpg&f=1&nofb=1&ipt=8ec550772a6fe21916e064d2d2a0927523680e0c7337777507f453001f329fd9&ipo=images"
+cd ../Stavesacre\ -\ Absolutes
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.jesusfreakhideout.com%2Fcdreviews%2Fcovers%2Fabsolutes.jpg&f=1&nofb=1&ipt=d0318fae717d22eb886f64d43e1916d9a1deb1dff81b182aa8103d9c3ce6ec4f&ipo=images"
+cd ../Various\ Artists\ -\ Tooth\ \&\ Nail\ Records\ 4th\ Anniversary\ Box\ Set\ \(disc\ 1\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41FQbVmzhSL.jpg&f=1&nofb=1&ipt=3e34063cadcb7281688279eb30b10a7dd3ea9dacb1db7c2fd126e013fda86bf9&ipo=images"
+cd ../Various\ Artists\ -\ Tooth\ \&\ Nail\ Records\ 4th\ Anniversary\ Box\ Set\ \(disc\ 2\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41FQbVmzhSL.jpg&f=1&nofb=1&ipt=3e34063cadcb7281688279eb30b10a7dd3ea9dacb1db7c2fd126e013fda86bf9&ipo=images"
+cd ../Various\ Artists\ -\ Tooth\ \&\ Nail\ Records\ 4th\ Anniversary\ Box\ Set\ \(disc\ 3\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41FQbVmzhSL.jpg&f=1&nofb=1&ipt=3e34063cadcb7281688279eb30b10a7dd3ea9dacb1db7c2fd126e013fda86bf9&ipo=images"
+cd ../Various\ Artists\ -\ Tooth\ \&\ Nail\ Records\ 4th\ Anniversary\ Box\ Set\ \(disc\ 4\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41FQbVmzhSL.jpg&f=1&nofb=1&ipt=3e34063cadcb7281688279eb30b10a7dd3ea9dacb1db7c2fd126e013fda86bf9&ipo=images"
+cd ../Various\ Artists\ -\ Tooth\ \&\ Nail\ Records\ 4th\ Anniversary\ Box\ Set\ \(disc\ 5\)
+wget -O front-cover.jpg "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41FQbVmzhSL.jpg&f=1&nofb=1&ipt=3e34063cadcb7281688279eb30b10a7dd3ea9dacb1db7c2fd126e013fda86bf9&ipo=images"
+cd Music
+la
+la
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+exit
+sudo shutdown now
+ssh jared@jaredskane.com
+ssh jared@jaredskane.com
+sudo shutdown now
+sudo systemctl start expressvpn.service
+expressvpn connect "uklo"
+expressvpn status
+which brave
+expressvpn status
+sudo systemctl stop expressvpn.service
+expressvpn status
+exit
+blog
+django
+python manage.py runserver
+notes
+sudo reboot now
+neofetch
+ddg "how many watt hours is the battery of a samsung 220"
+neofetch
+nvidia-smi
+flatpak uninstall --unused
+notes
+notes
+exit
+=======
+python manage.py tailwind start
+python manage.py tailwind start
+python manage.py tailwind start
+python manage.py tailwind start
+python manage.py tailwind start
+python manage.py tailwind start
+django
+blog
+git pull
+python manage.py migrate
+python manage.py runserver
+python manage.py runserver
+python manage.py runserver
+python manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
+sqlite3 db.sqlite3
+python convert_markdown.py
+python manage.py makemigrations
+python manage.py migrate
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python manage.py runserver
+python convert_markdown.py
+python manage.py runserver
+git add .
+git commit -m "updated models, added single pages, created the sidebar"
+git push
+blog
+sqlite3 db.sqlite3
+django
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+python convert_markdown.py
+sqlite3 db.sqlite3\\
+;
+sqlite3 db.sqlite3\\
+;
+sqlite3 db.sqlite3\
+;
+ssh-keygen -t ed25519 -C jaredblog
+cd .ssh
+ssh-keygen -t ed25519 -C jaredblog
+la
+cat jaredblog-ssh-key.pub
+exit
+blog
+git pull
+django
+nvi m.
+nvim .
+git add .
+git commit -m "removing pycache"
+git push
+python convert_markdown.py
+python manage.py runserver
+ssh jaredskane
+django
+python manage.py tailwind start
+blog
+nvim .
+nvim .
+git add .
+git commit -m "mobile nav bar is working\
+
+git commit -m "mobile nav bar is working"\
+
+git push
+nvim .
+git add .
+git commit -m "made the about me card more responsive"
+git push
+hg
+man ssh
+django
+blog
+pip freeze
+pip freeze > requirements_221015.txt
+la
+cd ..
+la
+scp -r jaredsblog jaredblog:~/
+ls -la
+ssh jaredblog
+la | grep env
+la | grep .py
+cd ~
+la | grep .py
+cd .pyenv
+la
+ssh root@172.104.232.10
+cd .ssh
+la
+ssh root@172.104.232.10
+nvim .
+ssh jaredblog-root
+nvim .
+ssh -p 5252 root@172.104.232.10
+ssh -p 5252 jared@172.104.232.10
+ssh -p 5252 jared@172.104.232.10
+ssh-copy-id -f jaredblog-ssh-key jared@172.104.232.10
+ssh-copy-id jared@172.104.232.10
+ssh-copy-id -p 5252 jared@172.104.232.10
+cat jaredblog-ssh-key
+cat jaredblog-ssh-key.pub
+nvim .
+sudo systemctl restart ssh
+ssh jaredblog
+nvim .
+ssh jaredblog
+cat config
+ssh jaredblog
+nvim .
+ssh jaredblog
+ssh jaredblog
+ssh jaredblog
+nvim .
+ssh jaredblog
+ssh-copy-id -p 5252 jared@172.104.232.10
+la
+man ssh-config
+man ssh
+ssh -p 5252 -i jaredblog-ssh-key jared@172.104.232.10
+ssh -p 5252 -i jaredblog-ssh-key.pub jared@172.104.232.10
+ssh -p 5252 jared@172.104.232.10
+ssh jaredblog
+cat config
+ssh -p 5252 -i jaredblog-ssh-key324ijdj jared@172.104.232.10
+ssh jaredblog-root
+nvim config
+ssh jaredblog-root
+ssh jaredblog
+ssh -p 5252 -i jaredblog-ssh-key324ijdj jared@172.104.232.10
+man ssh
+nvim config
+man ssh
+nvim config
+ssh jaredblog
+nvim config
+ssh jaredblog
+nvim config
+cat jaredblog-ssh-key.pub
+ssh jaredblog
+jaredblog
+ssh jaredblog
+cd ~/Website_Projects/jaredsblog
+ls
+cd jaredsblog
+ls
+scp -r theme jaredsblog:jaredsblog/
+scp -r theme jaredblog:jaredsblog/
+ls
+sqlite3 db.sqlite3\
+;
+cd /
+ls -la
+cd var
+ls -la
+cd ../tmp
+ls -la
+cd ..
+cd ../var/log
+ls -la
+cd apache2
+la
+ssh jaredblog
+exit
+ssh jaredblog
+exit
+notes
+cat .ssh/config
+hg
+ssh jaredskane.com
+ssh jaredskane
+ncdu .
+ncdu .
+cd .config/nvim
+git push
+cd ../zsh
+git push
+git add .
+git commit -m "I dunno"
+git status
+git push
+cd ..
+blog
+git status
+git add .
+git commit -m "Getting ready for production"
+git push
+cd ~/Documents/Python_Scripts/crm-flow-cohorts
+git add .
+git commit -m "Small tweaks"
+git push
+nvidia-smi
+conda install pandas-stubs
+pip install pandas-stubs
+conda install mypy
+python3 -m pip install mypy
+python3 -m pip install django-stubs
+exit
+nvimrc
+blog
+django
+exit
+django
+python3 -m pip install django-stubs
+pip instlal --upgrade pip
+pip install --upgrade pip
+blog
+nvim .
+exit
+ranger .
+exit
+cd Documents/Python_Scripts/crm-flow-cohorts
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+nvim .
+anaconda-navigator
+systemctl status expressvpn.service
+systemctl start expressvpn.service
+expressvpn connect "uklo"
+systemctl status expressvpn.service
+cln
+nvidia-smi
+ssh jaredskane
+cd Documents/Python_Scripts/
+mkdir 2022-12_find-music
+cd 2022-12
+cd 2022-12_find-music
+scp jaredskane:~/scripts/music_files.json .
+la
+nvim .
+la
+ssh jaredskane
+ssh jaredskane
+cd Documents/Python_Scripts/2022-12_find-music
+la
+python scrape_music_files.py
+la ~/Music
+python scrape_music_files.py
+la
+scp **
+hg
+hg
+scp jaredskane:~/scripts/music_files.json ./music_files_server.json
+la
+wc --lines music_files_server.json
+python scrape_music_files.py
+rm music_files.json
+la
+wc --lines music_files_server.json
+wc --lines music_files_local.json
+python scrape_music_files.py
+wc --lines music_files_local.json
+python scrape_music_files.py
+python scrape_music_files.py
+python scrape_music_files.py
+python scrape_music_files.py
+python scrape_music_files.py
+python scrape_music_files.py
+python scrape_music_files.py
+python scrape_music_files.py
+python scrape_music_files.py
+anaconda-navigator
+cd Documents/Python_Scripts/2022-12_find-music
+la
+sudo chmod 755 download_albums_from_server.sh
+la
+sudo chmod 766 download_albums_from_server.sh
+la
+./download_albums_from_server.sh
+./download_albums_from_server.sh
+./download_albums_from_server.sh
+la
+la
+./download_albums_from_server.sh
+cd Documents/Python_Scripts/2022-12_find-music
+la
+./download_albums_from_server.sh
+cd Documents/Python_Scripts/2022-12_find-music
+la
+scp jaredskane:~/scripts/scrape_music_files.py .
+la
+nvim .
+la
+nvim .
+exit
+cd Documents/Python_Scripts/2022-12_find-music
+./download_albums_from_server.sh
+./download_albums_from_server.sh
+./download_albums_from_server.sh
+string="I am a string"
+echo $string
+echo ${string}
+echo ${string//a/the}
+echo ${string// / the}
+echo ${string// / the }
+echo ${string// /\\ }
+echo ${string//string/\strong}
+echo ${string//string/\very a strong man I am}
+echo ${string//string/\very strong man I am}
+exit
+notes
+exit
+ncdu .
+exit
+la
+conda activate python-main
+python group_offer_data.py
+la
+python load_orders.py
+cd Documents/Python_Scripts/crm-flow-cohorts
+nvim .
+la
+git add .
+git add .
+git status
+git restore --staged
+git restore --staged .
+git status
+git add .
+git status
+git restore --staged .
+git add .
+git status
+git restore --staged .
+git add .
+git status
+git restore --staged .
+git add .
+git status
+git push
+git commit -m "updated"
+git push
+sudo nala update
+nala list --upgradable
+sudo nala upgrade
+cd Documents/Python_Scripts/crm-flow-cohorts/Offers_Data_Clean
+la
+conda activate python-main
+ipython quick_offer_script.py
+ipython
+cd Documents/Python_Scripts/crm-flow-cohorts
+nvim .
+anaconda-navigator
+anaconda-navigator
+cd Documents/Python_Scripts/crm-flow-cohorts
+la
+nvim .
+cd /etc/apache2
+cd sites-available
+la
+nvim contracts.local.conf
+nvim /etc/hosts
+cd /var/www/contracts
+la
+netstat -ntlp
+nala search rygel
+nala remove rygel
+sudo nala remove rygel
+netstat -ntlp
+sudo nvim /etc/apache2/sites-available/contracts.local.conf
+sudo systemctl restart apache2.service
+cd /var/www/contracts/wp-content/themes/contracts-theme
+git status
+git diff footer.php
+git diff inc/PdfTemplate/Testament.php
+git log
+la
+npm run watch
+npm run prod
+sudo systemctl restart apache2.service
+sudo systemctl restart apache2
+sudo systemctl restart mysql
+npm run watch
+cd /
+la
+cd var
+la
+cd log
+la
+cd log | grep apach
+la | grep apach
+cd apache2
+la
+hg
+tail -f access.log
+la
+cd /etc/apache2/sites-available
+la
+rm 000-default.conf
+sudo rm 000-default.conf
+sudo cat wordpress.conf
+sudo cat default-ssl.conf
+cd ../sites-enabled
+la
+sudo rm 000-default.conf
+sudo rm default-ssl.conf
+la
+sudo systemctl restart apache2
+sudo systemctl status apache2
+cd ../sites-available
+la
+nvim .
+la
+cd ..
+la
+sudo nvim .
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo systemctl status mysql
+sudo systemctl restart apache2
+sudo systemctl status apache2
+sudo ps aux | grep -E 'apache2|httpd'
+sudo killall apache2
+sudo systemctl status apache2
+sudo apache2ctl -t
+sudo nvim /etc/hostname
+sudo nvim /etc/apache2/apache2.conf
+sudo nvim /etc/apache2/apache2.conf
+sudo apache2ctl -t
+sudo apache2ctl -S
+sudo systemctl reload apache2
+sudo systemctl restart apache2
+sudo systemctl start apache2
+sudo systemctl reload apache2
+sudo grep -i -r error /var/log/apache2/
+sudo ls /var/log/apache2/
+sudo ls /var/log/apache2/error.log
+sudo grep -i -r error /var/log/apache2/error.log
+sudo nvim -i -r error /var/log/apache2/error.log
+sudo nvim /var/log/apache2/error.log
+notes
+notes
+notes
+notes
+notes
+notes
+notes
+exit
+hg
+unrpa -mp mov_un8/ movies_ep8.rpa
+cd .steam/debian-installation/steamapps/common/Being\ a\ DIK
+la
+cd game
+la
+mkdir ~/Downloads/temp_bak
+unrpa -mp ~/Downloads/temp_bak/test movies_ep8.rpa
+la
+unrpa -mp ~/Downloads/temp_bak/test_images ep8_images.rpa
+nvidia-smi
+nvimrc
+exit
+nvim rc
+nvimrc
+exit
+nvimrc
+exit
+nvimrc
+exit
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=coolero org.coolero.Coolero
+flatpak update org.coolero.Coolero
+/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=coolero org.coolero.Coolero
+notes
+notes
+notes
+notes
+noves
+notes
+<<<<<<< HEAD
+cd .config/nvim
+git push
+git add .
+git commit -m "Fixed some keymaps"
+git push
+zshrc
+cd ~/.config/zsh
+git add .
+git commit -m "did I do anything"
+git push
+sudo nala update
+sudo nala upgrade
+exit
+sudo reboot now
+notes
+exit
+notes
+exit
+notes
+exit
+cd /var/www/contracts/wp-content/themes/contracts-theme
+git status
+nvim.
+nvim .
+cd ../../..
+nvim .
+exit
+ncdu .
+cd DCIM
+ncdu .
+notes
+cd wp-content/themes/contracts-theme
+npm run watch
+npm run watch
+npm run watch
+npm run watch
+npm run watch
+npm run watch
+npm run watch
+npm run watch
+npm run watch
+npm run watch
+git add .
+git status
+git add .
+la
+rm -r
+rm "-r"
+la
+nvim .
+git add .
+git commit -m "Started refactoring the css and homepage"
+ssh jaredskane
+scp jaredskane:/mnt/jellies/Music/As\ Cities\ Burn\ -\ Come\ Now,\ Sleep ~/Music/
+scp jaredskane:"/mnt/jellies/Music/As Cities Burn - Come Now, Sleep" ~/Music/
+scp jaredskane:"'/mnt/jellies/Music/As Cities Burn - Come Now, Sleep'" ~/Music/
+cd Downloads
+mkdir "As Cities Burn"
+cd As\ Cities\ Burn
+scp -r jaredskane:"'/mnt/jellies/Music/As Cities Burn - Come Now, Sleep'" .
+notes
+nvimrc
+nvimrc
+cd .config/nvim
+git pull
+nvim .
+nvim .
+git add .
+git commit -m "I reorganized the config files. Removed treesitter config file accidentally"
+git push
+cd Downloads
+cd ~/Downloads
+la
+cd As\ Cities\ Burn
+la
+cd As\ Cities\ Burn\ -\ Come\ Now,\ Sleep
+la
+la
+la
+cd ..
+cp As\ Cities\ Burn\ -\ Come\ Now,\ Sleep ~/Music/
+cp -r As\ Cities\ Burn\ -\ Come\ Now,\ Sleep ~/Music/
+notes
+nvimrc
+exit
+notes
+cd /var/www/contracts/wp-content/themes/contracts-theme
+nvim .
+exit
+jk_extract_music
+exit
+nvimrc
+notes
+notes
+notes
+notes
+nvimrc
+cd /var/www/contracts
+git init
+la
+nvim .gitignore
+exit
+cd /var/www/contracts
+nvim .
+nvim .
+nvim .
+nvim .
+git ls-files
+git config --global --add safe.directory /var/www/contracts
+git ls-files
+nvim .
+nvim .
+nvim .
+nvim .
+cd /var/www/contracts/wp-content/themes/contracts-theme
+git status
+git log
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+npm audit
+npm audit fix
+npx tailwindcss init
+npm run dev
+npm run watch
+npm run prod
+npm run watch
+npm run watch
+npm run watch
+npm run watch
+cd ../..
+cd ..
+nvim .
+exit
+cd /var/www/contracts/wp-content/themes/contracts-theme
+npm run watch
+exit
+cd /var/www/contracts/wp-content/themes/contracts-theme
+git add .
+git commit -m "Added tailwind updated front page styling"
+git push
+git push origin master
+git push --set-upstream origin master
+hg git push
+git push https://github.com/masterteapot/contracts.git
+psmem
+bpytop
+cln
+glxinfo | grep mesa
+glxinfo | grep Mesa
+glxinfo
+cln
+zshrc
+notes
+exit
+notes
+exit
+notes
+exit
+cd /var/www/contracts/wp-content/themes/contracts-theme
+npm run watch
+npm run prod
+git add .
+git commit -m "Updated front page SASS, not really using tailwind yet"
+git push
+git push https://github.com/masterteapot/contracts.git
+wp-contracts-prod
+linux-version
+uname -r
+dmidecode -s bios-version
+man dmidecode
+sudo dmidecode -s bios-version
+fzf_open
+zshrc
+sudo apt update && sudo apt upgrade -y
+sudo service fwupd start
+sudo fwupdmgr refresh
+la /lib/firmware/
+la /lib/firmware/amdgpu/
+sudo nvim /etc/modprobe.d/blacklist.conf
+sudo add-apt-repository ppa:kisak/kisak-mesa\
+sudo apt update\
+sudo apt upgrade
+sudo apt install ppa-purge
+glxinfo | grep Mesa
+sudo nala upgrade
+sudo apt update
+glxinfo
+glxinfo | fzf
+glxinfo | grep "OpenGL version"
+sudo ppa-purge ppa:kisak/kisak-mesa
+sudo apt install mesa-utils -y
+sudo add-apt-repository ppa:oibaf/graphics-drivers -y
+sudo apt update
+sudo apt update
+sudo apt upgrade
+sudo nala upgrade
+glxinfo | grep "OpenGL version"
+sudo apt remove libgd3:i386
+sudo apt update
+sudo apt update
+sudo apt list --upgradeable
+sudo apt upgrade
+sudo nala upgrade
+not4es
+notes
+notes
+notes
+glxinfo | fzf
+cd /etc/apt
+la
+sudo nvim preferences.d
+la
+cd preferences.d
+la
+sudo nvim pop-default-settings
+sudo nvim pop-default-settings
+sudo nvim pop-default-settings
+sudo ppa-purge ppa:kisak/kisak-mesa
+sudo ppa-purge -d jammy ppa:kisak/kisak-mesa
+sudo ppa-purge -d "jammy" ppa:kisak/kisak-mesa
+man ppa-purge
+sudo ppa-purge -d "ubuntu/jammy" ppa:kisak/kisak-mesa
+sudo nala update
+sudo nala upgrade
+sudo nala upgrade
+la
+sudo nvim pop-default-settings
+sudo nala update
+sudo nala upgrade
+glxinfo | fzf
+glxinfo | grep Mesa
+glxinfo | grep Open
+nvim pop-default-settings
+sudo nvim pop-default-settings
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt upgrade
+pwd
+nvim .
+sudo nvim pop-default-settings
+notes
+sudo system76-power graphics
+sudo apt-get install mesa-utils
+env vblank_mode=0 __GL_SYNC_TO_VBLANK=0 glxgears
+cd /etc/modprobe.d
+la
+sudo nvim .
+sudo ppa-purge ppa:kisak/kisak-mesa
+sudo ppa-purge ppa:kisak/kisak-mesa
+sudo ppa-purge ppa:oibaf/graphics-drivers
+sudo ppa-purge ppa:oibaf/graphics-drivers
+sudo ppa-purge ppa:oibaf/graphics-drivers
+sudo reboot now
+cd /etc/apt/preferences.d
+la
+nvim pop-default-settings
+sudo nvim pop-default-settings
+exit
+cd /etc/modprobe.d
+la
+hg
+notes
+sudo reboot now
+glxinfo | fzf
+exit
+sudo apt update
+sudo apt upgrade
+sudo reboot now
+neofetch
+sudo apt update
+sudo apt upgrade
+glxinfo | fzf
+sudo nala search amdgpu-install
+sudo nala search amdgpu
+sudo apt install ./debian-binary
+cd ..
+la
+sudo apt install ./amdgpu-install_5.4.50401-1_all.deb
+sudo reboot now
+neofetch
+sudo nala update
+sudo nala update
+nala list --upgradable
+sudo nala upgrade
+glxinfo | fzf
+neofetch
+cd /var/www/contracts/wp-content/themes/contracts-theme
+git status
+git push https://github.com/masterteapot/contracts.git
+exit
+neofetch
+glxinfo | fzf
+wp
+cd /var/www/contracts/wp-content/themes/contracts-theme
+la
+nvim .
+git add .
+git commit -m "front page"
+git push https://github.com/masterteapot/contracts.git
+sudo nala update
+nala list --upgradable
+sudo apt upgrade
+sudo nala update
+sudo nala upgrade
+man nala
+nala history
+sudo reboot now
+cln
+sudo apt install ./amdgpu-install_5.4.50401-1_all.deb
+amdgpu-install
+amdgpu-install
+zsh_history | $(fzf)
+zsh_history
+zsh_history | fzf
+glxinfo | fzf
+sudo add-apt-repository ppa:oibaf/graphics-drivers\
+sudo apt update\
+sudo apt upgrade
+sudo apt update
+sudo apt upgrade
+glxinfo | grep Open
+glxinfo | grep Mesa
+sudo add-apt-repository ppa:oibaf/graphics-drivers
+sudo apt update
+sudo apt upgrade
+cln
+sudo apt update
+sudo apt upgrade
+cln
+cln
+./console_solver
+sudo apt update
+sudo apt upgrade
+sudo reboot now
+sudo nala update
+nala list --upgradable
+sudo nala upgrade
+sudo reboot now
+sudo nala update
+la
+cln
+man update-initramfs
+sudo update-initramfs -u -k all
+ls /etc/apt
+ls /etc/apt/sources.list.d
+sudo ppa-purge ppa:oibaf-ubuntu-graphics-drivers-jammy
+sudo ppa-purge ppa:oibaf-ubuntu-graphics-drivers-jammy.list
+sudo ppa-purge ppa:oibaf-ubuntu-graphics-drivers-jammy
+sudo ppa-purge ppa:oibaf-ubuntu-graphics-drivers-jammy
+sudo apt-get purge oibaf-ubuntu-graphics-drivers-jammy
+sudo ppa-purge ppa:oibaf-ubuntu-graphics-drivers-jammy
+cd /etc/apt/sources.list.d
+la
+cat oibaf-ubuntu-graphics-drivers-jammy.list
+sudo ppa-purge ppa:oibaf-ubuntu-graphics-drivers-jammy.list
+sudo apt-get update
+sudo ppa-purge ppa:openmw-ubuntu-openmw-daily-impish.list.save
+sudo reboot now
+neofetch
+grep *
+grep .
+la
+rm *-l.mp4
+la
+sudo nala update
+sudo nala upgrade
+sudo reboot now
+cd Documents/Python_Scripts/2022-04_QDPR_music
+conda activate python-main
+ipython
+python qdpr.py
+cln
+nvim Documents/Python\ Scripts
+pwd
+cd wp-content/themes/contracts-theme
+man gh
+gh auth login
+git pull
+git checkout tailwind
+git pull
+pwd
+git status
+pwd
+cd wp-content/themes/contracts-theme
+git status
+la
+ls
+sudo systemctl start expressvpn.service
+expressvpn connect "uklo"
+npm run watch
+npm run watch
+npm update
+npm run prod
+npm run dev
+npm run watch
+git add .
+git status
+npm run prod
+npm run prod
+npm run watch
+expressvpn disconnect
+sudo systemctl stop expressvpn.service
+sudo nala update
+cd /
+free
+fd
+bpytop
+jk_extract_music
+la
+rm -r *
+la
+exit
+conda activate python-main
+bpytop
+bpytop
+conda activate python-main
+conda activate python-main
+conda install pickle
+conda install datetime
+python main.py
+python main.py
+conda activate python-main
+python main.py
+python main.py
+nala upgrade
+sudo nala upgrade
+cln
+bpytop
+sudo logout now
+logout
+which logout
+conda activate python-main
+/home/jared/anaconda3/envs/python-main/bin/python /home/jared/Documents/Python_Scripts/2023-03_new-churn-flow/main.py
+/home/jared/anaconda3/envs/python-main/bin/python /home/jared/Documents/Python_Scripts/2023-03_new-churn-flow/analysis.py
+/home/jared/anaconda3/envs/python-main/bin/python /home/jared/Documents/Python_Scripts/2023-03_new-churn-flow/analysis.py
+/home/jared/anaconda3/envs/python-main/bin/python /home/jared/Documents/Python_Scripts/2023-03_new-churn-flow/analysis.py
+/home/jared/anaconda3/envs/python-main/bin/python /home/jared/Documents/Python_Scripts/2023-03_new-churn-flow/analysis.py
+conda activate python-main
+/home/jared/anaconda3/envs/python-main/bin/python
+exit
+conda activate python-main
+exit
+bpytop
+bpytop
+bpytop
+sudo nala update
+exit
+cln
+glxinfo | grep Mesa
+cln
+exit
+which byobu
+nala search byobu
+nala search caa
+la
+ll
+ranger .
+cln
+la
+cd 2023-01_Dupilcate-Users
+la
+conda activate python-main
+ipython
+conda install pandas
+ipython
+conda install conda=23.3.1
+la
+python main.py
+python main.py
+nvim
+exit
+ddg "how to change the working directory in vim"
+sudo shutdown now
+sudo systemctl stop mariadb
+sudo systemctl stop mysql
+sudo systemctl stop io.elementary.appcenter
+sudo systemctl stop io.elementary
+sudo systemctl stop appcenter
+cln
+bpytop
+sudo nala update
+nala list --upgradable
+sudo shutdown now
+bpytop
+cd wp-content/themes/contracts-theme
+git diff HEAD
+git checkout tailwind
+git reset tailwind
+git status
+git checkout tailwind
+git status
+git restore
+git restore *
+git restore woocommerce/myaccount/dashboard.php
+git restore woocommerce/myaccount/my-account.php
+cd wp-content/themes/contracts-theme
+npm run watch
+git status
+git pull
+npm run watch
+npm run watch
+git add .
+git commit -m "Themed the login and registration page"
+git push
+npm run watch
+npm run watch
+git add .
+git commit -m "Tzsh_history | $(fzf)"
+git push
+git status
+git info
+git branches
+git --help
+git log
+npm run prod
+wp-contracts-prod
+sudo nala update
+npm run watch
+conda activate python-main
+/home/jared/anaconda3/envs/python-main/bin/python
+conda activate python-main
+conda activate python-main
+/home/jared/anaconda3/envs/python-main/bin/python /home/jared/Documents/Python_Scripts/2023-05_subscriber-1sr/main.py
+cd Documents
+mkdir Lua
+cd Lua
+mkdir Learning_Lua
+cd Learning_Lua
+nvim .
+cd Documents/Lua/Learning_Lua
+la
+lua 01_hello.lua
+la
+lua -l02_chunks.lua -l02B_chunks_cont.lua
+lua -i -l02_chunks.lua -l02B_chunks_cont.lua
+lua -i -l02_chunks -l02B_chunks_cont
+lua -i -l02_chunks -l02b_chunks_cont
+lua -i
+lua -i
+nala search luarocks
+man luarocks
+luarocks search help
+luarocks install help
+sudo luarocks install help
+sudo luarocks install ihelp
+lua -e "help = require'ihelp'"
+lua -i
+sudo luarocks install luahelp
+lua -i
+sudo nala update
+nala list --upgradable
+sudo nala upgrade
+cln
+bpytop
+fzf_cd
+la
+lua 1.1.lua 2 2
+lua 1.1.lua 2 4
+lua 1.1.lua 2 8
+lua 1.1.lua 2 -1
+lua -i
+la
+lua 1.8.lua
+la
+lua 2.0_eight_queen.lua
+lua 2.1_eight_queen.lua
+lua 2.1_eight_queen.lua
+lua 2.1_eight_queen.lua
+lua 2.1_eight_queen.lua
+lua 2.1_eight_queen.lua
+lua -i
+fzf_open
+fzf_cd
+nvim .
+nvim .
+conda activate python-main
+/home/jared/anaconda3/envs/python-main/bin/python /home/jared/Documents/Python_Scripts/2023-05_vendor-feed-photos/main.py
+/home/jared/anaconda3/envs/python-main/bin/python
+sudo nala update
+nala list --upgradable
+sudo nala upgrade
+cln
+cd Downloads
+la
+ranger .
+touch vf_small.csv
+man head
+head -n 3 vendor-feed_full.csv
+head -n 1 vendor-feed_full.csv
+head -n 100 vendor-feed_full.csv
+head -n 1000 vendor-feed_full.csv >> vf_small.csv
+cd Videos
+la
+mkdir Upscale
+cd Upscale
+sudo nala search docker
+sudo nala install docker
+docker
+docker
+nala list docker
+sudo systemctl status docker
+sudo nala uninstall docker
+for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
+sudo apt-get update\
+sudo apt-get install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings\
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg\
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+echo \\
+  "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \\
+  "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" | \\
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo docker run hello-world
+docker run -it --rm --device=/dev/dri -v $PWD:/host ghcr.io/k4yt3x/video2x:$TAG -i BL201.avi -o output.mp4 -p3 upscale -h 1080 -a waifu2x -n3
+docker run -it --rm --device=/dev/dri -v $PWD:/host ghcr.io/k4yt3x/video2x:5.0.0-beta6 -i BL201.avi -o output.mp4 -p3 upscale -h 1080 -a waifu2x -n3
+docker pull ghcr.io/k4yt3x/video2x:5.0.0-beta6
+sudo docker pull ghcr.io/k4yt3x/video2x:5.0.0-beta6
+docker run -it --rm --device=/dev/dri -v $PWD:/host ghcr.io/k4yt3x/video2x:5.0.0-beta6 -i BL201.avi -o output.mp4 -p3 upscale -h 1080 -a waifu2x -n3
+docker run -it --rm --device=/dev/dri -v $PWD:/host ghcr.io/k4yt3x/video2x:$TAG -i BL201.avi -o output.mp4 -p3 upscale -h 1080 -a waifu2x -n3
+docker run -it --rm --device=/dev/dri -v $PWD:/host ghcr.io/k4yt3x/video2x:5.0.0 -i BL201.avi -o output.mp4 -p3 upscale -h 1080 -a waifu2x -n3
+sudo docker run -it --rm --device=/dev/dri -v $PWD:/host ghcr.io/k4yt3x/video2x:5.0.0 -i BL201.avi -o output.mp4 -p3 upscale -h 1080 -a waifu2x -n3
+sudo docker run -it --rm --device=/dev/dri -v $PWD:/host ghcr.io/k4yt3x/video2x:5.0.0-beta6 -i BL201.avi -o output.mp4 -p3 upscale -h 1080 -a waifu2x -n3
+sudo docker run -it --rm --device=/dev/dri -v $PWD:/host ghcr.io/k4yt3x/video2x:5.0.0-beta6 -i BL201.avi -o output.mp4 upscale -h 1080 -a waifu2x -n3
+sudo systemctl status docker
+sudo systemctl disable docker
+sudo systemctl stop docker
+sudo systemctl stop docker.socket
+sudo systemctl disable docker.socket
+sudo nala update
+nala list --upgradable
+sudo nala upgrade
+nvimrc
+cd .config/nvim
+git status
+git pull
+git status
+git diff
+git restore .
+git pull
+git add .
+git commit -m "aligned with origin"
+git push 
+nvimrc
+nvimrc
+nvimrc
+nvimrc
+exit
+chmod u+x nvim.appimage && ./nvim.appimage
+nvimrc
+nvimrc
+nvimrc
+nvimrc
+sudo nala updaet neovim
+sudo nala update neovim
+sudo nala update
+sudo nala upgrade neovim
+sudo nala install neovim
+sudo nala install python3-neovim
+cd Downloads
+cd ~/Downloads
+la
+tar xzvf nvim-linux64.tar.gz
+la
+./nvim-linux64/bin/nvim
+nvimrc
+sudo nala uninstall neovim
+mv nvim.appimage ~/.local/bin
+nvim
+exit
+fzf_cd
+la
+tsc index.ts
+tsc index.ts
+tsc index.ts
+tsc index.ts
+node index.js
+tsc index.ts
+node index.js
+exit
+nvim
+cd .local/bin
+la
+./nvim.appimage
+zshrc
+cd ~/.config/zsh
+code .
+exit
+cd Documents
+la
+mkdir Typescript
+cd Typescript
+la
+mkdir ThePrimeagean
+cd ThePrimeagean
+node -i -g typescript
+npm -i -g typescript
+sudo npm install -g typescript
+sudo npm install npm@latest -g
+sudo npm install npm@latest -g
+tsc --version
+sudo npm install npm@9.6.7
+node --version
+npm use 17
+sudo npm install npm@latest -g
+npm help
+npm version
+npm --v
+node --version
+npm install node@18^
+npm install node@18
+sudo npm install -g npm@9.6.7
+nvm ls
+nvm use 16
+sudo npm install -g npm@9.6.7
+npm use 16
+npm help
+npm ls
+tsc --version
+npm whoami
+npm adduser jared
+ls
+nvim .
+nvim .
+nvim .
+exit
+nvim
+nvimrc
+nvimrc
+zshrc
+zshrc
+cd Documents/Lua/Learning_Lua
+nvim .
+nvim .
+nvimrc
+cd .config/nvim
+nvim 
+nvim
+la
+nvim
+nvim
+nvim
+nvim .
+nvim .
+nvim .
+git add .
+git commit -m "Updated for nvim v9"
+git push
+sudo nala search tree-sitter
+sudo nala install libtree-sitter-dev
+tree-sitter
+/home/jared/anaconda3/bin/python3 -m pip install pynvim
+yarn info neovim
+yarn -help
+fzf_cd
+la
+tsc index.ts
+node index.js
+fzf_cd
+nvim .
+exit
+ranger
+exit
+cd .config/nvim
+nvim .
+nvim .
+nvim .
+nvim .
+exit
+fzf_cd
+la
+nvim .
+nvim
+nvim
+nvim 
+nvim
+exit
+cd .config/nvim
+nivm
+nvim
+fzf_cd
+tsc
+tsc
+node dist/index.js
+\:w
+tsc
+node
+la
+cd course_material
+git clone git@github.com:ThePrimeagen/kata-machine.git
+cd kata-machine
+yarn install
+which yarn
+man yarn
+yarn -help
+la
+yarn
+nala search yarn
+sudo nala uninstall yarn
+which yarn
+sudo apt remove yarn
+yarn .
+yarn *
+ls
+yarn generate
+sudo rm /usr/bin/yarn
+sudo nala install yarn
+cmdtest install
+yarn
+which yarn
+sudo nala install yarnpkg
+yarnpkg install
+node install yarn
+npm install yarn
+yarn install
+yarn generate
+sudo nala remove yarnpkg
+cln
+la
+npx jest Linear
+npx jest binary
+npx jest bs_list
+npx jest binary
+npx jest binary
+npx jest binary
+npx jest Two
+npx jest Two
+npx jest Two
+git status
+nvim 
+fzf_cd
+conda activate python-main
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+fzf_cd
+la
+cd course_material/kata-machine
+npx jest bubble
+npx jest bubble
+npx jest bubble
+fzf_cd
+la
+nvim 
+exit
+cd Documents/Notes
+la
+cd Documents
+la
+cd ../Nextcloud/Notes
+la
+nvim .
+exit
+sudo nala update
+nala -list --upgradable
+nala -list --upgradable
+nala list --upgradable
+sudo nala upgrade
+cln
+bpytop
+cln
+sudo nala update
+sudo nala update
+sudo nala upgrade
+cln
+cln
+ping https://youtube.com
+ping youtube.com
+ssh 192.168.1.1
+cd .ssh
+la
+nvim config
+ls
+npm run watch
+npm run watch
+npm run watch
+npm run prod
+npm run watch
+git add .
+git commit -m "Added min width to forms and fixed grid sizing on header for desktop"
+git run watch
+npm run watch
+npm run prod
+npm run watch
+npm run prod
+npm run watch
+npm run watch
+git add .
+git commit -m "Added hamburger menu and themed top half of homepage for mobile"
+git push
+npm install -D prettier prettier-plugin-tailwindcss
+npm audit
+which nvim
+npm install -D prettier prettier/plugin-php
+prettier --write "header.php"
+prettier --write "header.php" --plugin-search-dir=./node_modules/ --plugin=prettier-plugin-php
+prettier --write "header.php" --plugin-search-dir=./node_modules/ --plugin=@prettier/plugin-php
+prettier --write "header.php" --plugin-search-dir=./node_modules/ --plugin=@prettier/plugin-php
+npm run watch
+npm run watch
+git add .
+git commit -m "Mobile theming added to homepage"
+git push
+wp-contracts-prod
+npm run watch
+git add .
+git commit -m "added padding for my account on bottom before footer"
+git push
+wp-contracts-prod
+npm run watch
+git add .
+git commit -m "added mobile theming to first 2 sections of form"
+git push
+wp-contracts-prod
+npm run watch
+npm run prod
+git add .
+git commit -m "added mobile nav and hamburger menu"
+git push
+sudo systemctl disable perimeter81helper.service
+sudo systemctl stop perimeter81helper.service
+bpytop
+bpytop
+exit
+ssh 192.168.1.137
+ssh jared@192.168.1.137 PreferredAuthentication=password
+ssh -o 'PubkeyAuthentication=no' -o 'PreferredAuthentications=password' 'jared@192.168.1.137'
+ssh-copy-id -i ~/.ssh/id_rsa.pub -o PubkeyAuthentication=no -o PreferredAuthentications=password jared@192.168.1.137
+ssh jared@192.168.1.137
+exit
+cln
+sudo reboot now
+which perimeter
+which perimeter81
+bpytop
+cd /opt
+la | grep per
+la
+sudo rm -r Perimeter81
+la
+nvim .ssh
+ls
+ls -la
+la | grep ssh
+cd .ssh
+nvim 
+ssh fluffy-ubuntu-server
+cd ~/Games
+ls
+sftp fluffy-ubuntu-server
+ssh fluffy-ubuntu-server
+exit
+ssh jared@192.168.1.137
+cat .ssh/config
+ssh fluffy-ubuntu-server
+cat .ssh/config
+ssh 192.168.1.10
+zsh_history | $(fzf)
+zsh_history
+zsh_history | grep ssh 192
+zsh_history | grep "ssh 192"
+zsh_history | grep "ssh"
+ssh-copy-id -i ~/.ssh/id_rsa.pub -o PubkeyAuthentication=no -o PreferredAuthentications=password root@192.168.1.10
+ssh root@192.168.1.10
+exit
+ssh jared@139.144.56.67
+nvim .ssh
+exit
+sudo reboot now
+cd /
+fd -type d -name perimeter
+man fd
+which fd
+man fdfind
+fdfind -help
+fd -H -t d perimeter .
+c
+qqq
+sudo fd -H -t d perimeter .
+sudo fdfind -H -t d perimeter .
+sudo fdfind -H -t d -E media perimeter .
+sudo rm -r /etc/Perimeter81
+sudo rm -r /usr/share/doc/perimeter81
+rm -r /usr/local/share/ca-certificates/perimeter81
+sudo rm -r /usr/local/share/ca-certificates/perimeter81
+la
+cd root
+ls
+la
+cd .config
+sudo ls .config
+sudo la .config
+sudo su root
+cd ..
+sudo fdfind -H -t d -E media perimeter .
+la ~
+cd ~
+fd -H [pP]erimeter .
+fd -H perimeter .
+fd -H Perimeter .
+fd -H "[pP]erimeter" .
+fd -H "[pP]*" .
+cln
+cd Music
+fzf_open
+fzf_cd
+cd Music
+cd Sigur\ Rós\ -\ Kveikur\ \(Bundle\)
+ls
+la
+fzf_cd
+la
+zshrc
+exit
+bpytop
+. ranger
+exit
+thunderbird
+which thunderbird
+bpytop
+cd .config/nvim
+nvim
+nvim
+nvim
+exit
+bpytop
+sudo nala search jq
+cd Downloads
+la
+nvim test.json
+nvim test.json
+nvim test.json
+cln
+npm run watch
+git pull
+git status
+git list
+git log
+npm run watch
+git add .
+git commit -m "Added responsiveness to beneficiaries and legacies"
+git push
+npm prod
+npm dev
+npm run prod
+ddg "starflyer 59 young in my head release date"
+jk_extract_music
+cd Website_Projects
+la
+cd Bioki
+la
+cd ../..
+cd Bioki
+la
+cd bioki-app-backup
+la
+cd ..
+ncdu .
+exit
+cat .ssh/config
+cd Bioki
+la
+mkdir bioki-me-backup
+cd bioki-me-backup
+sftp bioki-testing
+sftp bioki-testing
+ssh bioki-testing
+la
+sftp bioki-testing
+ranger
+bpytop
+exit
+fzf_cd
+la
+jk_extract_music
+cd ~
+nvim .ssh
+. ranger
+sftp bioki-app
+exit
+notes
+la
+nvim Documents
+cd Nextcloud/Notes
+nvim
+la
+cd Website_Projects/jaredsblog
+la
+cd jaredsblog
+django
+la
+python manage.py tailwind start
+git add .
+git commit -m "added flavicon"
+git push
+git pull
+git mergetool
+git mergetool
+git --help
+man git
+git diff
+git diff
+git difftool
+git difftool --tool-help
+sudo nala install nvimdiff
+sudo nala search nvimdiff
+git difftool --tool=vimdiff
+git diff -- . ':(exclude)jaredsblog/__pycache__/**'
+git difftool --tool=vimdiff
+la
+nvim .gitignore
+git add .
+git commit -m "fixing pycache issues"
+git pull
+git push
+git log
+cln
+blog
+django
+python manage.py runserver
+nvim
+sudo nala update
+sudo shutdown now
+fzf_cd
+la
+cat .gitignore
+nvim .gitignore
+fzf_open
+nvim .gitignore
+fzf_cd
+nvim .gitignore
+fzf_cd
+exit
+fzf_cd
+la | grep *ignore*
+la
+nvim .ignore
+fzf_cd
+nvim .ignore
+fzf_cd
+fzf_cd
+la | grep *ignore*
+la
+nvim .ignore
+fzf_cd
+nvim .ignore
+fzf_cd
+mysql -u jared -p
+mysql
+sudo systemctl status mysql
+sudo mysql
+cd Website_Projects
+la
+cd Testamentto
+la
+cd Backups
+la
+mkdir 2023-06-16
+cd 2023-06-16
+la
+sudo mysqldump wordpress > db.sql
+la
+la /var/www
+sudo cp -r /var/www/contracts ./
+la
+sudo chown -R jared:jared contracts
+la
+ranger .
+la
+ls /etc/apache2
+ls -la /etc/apache2
+sudo cp /etc/apache2 ./
+sudo cp -r /etc/apache2 ./
+la
+sudo chown -R jared:jared apache2
+la
+la apache2
+la
+||||||| 5d5dc1b
+=======
+cd .config/nvim
+git pull
+cd ../zsh
+git pull
+la
+nvim .
+git add .
+git commit -m "merging on razer"
+git pull
+git mergetool --tool=nvimdiff
+git add .
+git commit -m "merging on razer"
+git pull
+git push
+exit
+notes
+cd .config/nvim
+git pull
+nvim .
+notes
+sudo reboot now
+sudo yay -Syu
+nvimrc
+cd .config/nvim
+git pull
+cd ../zsh
+git pull
+notes
+notes
+notes
+sudo reboot now
+notes
+exit
+notes
+exit
+notes
+sudo reboot now
+bpytop
+bpytop
+sudo shutdown now
+cd Documents/Python_Scripts/crm-flow-cohorts
+git status
+cd Documents/Python_Scripts/crm-flow-cohorts
+git status
+git diff
+git diff | nvim
+git pull
+git clean -fd
+git status
+git checkout -- .
+git pull
+nvim .
+cd Documents/Python_Scripts/crm-flow-cohorts
+git list
+git branch -list
+git branch --list
+git info
+git whatchanged
+la
+python loopy.py
+python loopy.py
+python loopy.py
+sudo shutdown now
+sudo shutdown now
+notes
+cln
+bpytop
+bpytop
+zshrc
+cd Downloads/Music\ Downloads
+la
+jk_extract_music
+scp -C -r * jared@jaredskane.com:/mnt/jellies/Music/
+fzf_open
+	zsh_history | $(fzf)
+cln
+fzf_open
+sudo yay -Syu fdfind
+yay -S fd
+sudo pacman -S fd
+fd meh
+cln
+expressvpn
+expressvpn status
+sudo shutdown now
+>>>>>>> d55e13d8f8d3347212c70c3fb2b316ab34af0d7a
