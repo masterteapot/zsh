@@ -12,5 +12,5 @@ function jk_extract_music() {
             cp -r "${f%.zip}" ~/Music/ ; 
         done
     rm *.zip;
-    scp -C -r * jaredskane:/mnt/jellies/Music/
+#    scp -C -r * jaredskane:/mnt/jellies/Music/
 }
