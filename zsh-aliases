@@ -2,11 +2,6 @@
 alias vi='nvim'
 alias g='lazygit'
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
-alias nvimrc='nvim ~/.config/nvim/'
-alias notes='nvim ~/Nextcloud/Notes/'
-alias zshrc='nvim ~/.config/zsh/'
-alias blog='cd ~/Website_Projects/jaredsblog/jaredsblog/'
-alias django='source ~/.pyenv/django/bin/activate'
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
@@ -42,6 +37,16 @@ if [ -x "$(command -v trash)" ]; then
 fi
 
 
+# Load heavy exports
+alias heavy='zsh_add_file "zsh-heavy-exports"'
+alias conda-load='zsh_add_file "zsh-heavy-exports"'
+alias nvm-load='zsh_add_file "zsh-heavy-exports"'
+
+# Git
+if [ -x "$(command -v lazygit)" ]; then
+	alias lg="lazygit"
+fi
+
 # FZF aliases
 alias fzff='print -z $(fdfind --type f --strip-cwd-prefix --hidden --exclude .git | fzf)'
 alias fzfd='cd "$(fdfind --type d --strip-cwd-prefix --hidden --exclude .git | fzf)"'
@@ -58,9 +63,21 @@ alias hg='print -z $(sort ~/.config/zsh/.zsh_history | uniq -c | fzf +s --tac | 
 alias cl="clear"
 alias cln="clear && echo '' && neofetch"
 
+# Quick projects
+alias nvimrc='cd ~/.config/nvim/ && nvim'
+alias notes='cd ~/Nextcloud/Notes/ && nvim'
+alias zshrc="cd ~/.config/zsh/ && nvim"
+
+# Blogging
+alias blog='cd ~/Website_Projects/jaredsblog/jaredsblog/'
+alias django='source ~/.pyenv/django/bin/activate'
+alias jb-run='blog && django && python manage.py runserver'
+alias jb-tail='blog && django && python manage.py tailwind start'
+alias jb-vim='blog && django && nvim'
+alias jb-mark='blog && django && python scripts/copy_obsidian.py /home/jared/Nextcloud/Notes/Blog && python convert_markdown.py'
+
 # Quick export of testamentto
 alias wp="code /var/www/contracts/"
-alias contracts="nvim /var/www/contracts/"
-alias zshrc="nvim ~/.config/zsh/"
+alias contracts="cd /var/www/contracts/ && nvim"
 alias wp-contracts-prod="~/.jaredbs/wp-contracts-prod.sh"
 alias wp-alshaya-prod="~/.jaredbs/wp-alshaya-prod.sh"

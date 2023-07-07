@@ -34,8 +34,10 @@ function zsh_add_completion() {
 	if [ "$2" = true ] && compinit "${completion_file:1}"
 }
 
-function mach_java_mode() {
-    #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-    export SDKMAN_DIR="$HOME/.sdkman"
-    [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+function csv_pretty {
+	cat "$@" | sed 's/,/ ,/g' | column -t -s, | less -S
+}
+
+function csv_cols {
+	head -1 $1 | sed "s/[^$2]//g" | wc -c
 }
