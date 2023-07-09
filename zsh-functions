@@ -33,3 +33,11 @@ function zsh_add_completion() {
 	completion_file="$(basename "${completion_file_path}")"
 	if [ "$2" = true ] && compinit "${completion_file:1}"
 }
+
+function csv_pretty {
+	cat "$@" | sed 's/,/ ,/g' | column -t -s, | less -S
+}
+
+function csv_cols {
+	head -1 $1 | sed "s/[^$2]//g" | wc -c
+}
