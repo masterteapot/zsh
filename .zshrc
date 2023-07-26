@@ -63,7 +63,7 @@ fpath+=./completion
 # Key-bindings
 bindkey -s '^o' 'ranger^M'
 bindkey -s '^s' 'ncdu^M'
-bindkey -s '^b' 'nvim "$(rg --files --hidden | fzf --preview=\"batcat --style=plain --color=always {}\" --bind shift-up:preview-page-up,shift-down:preview-page-down)"^M'
+# bindkey -s '^b' 'nvim "$(rg --files --hidden | fzf --preview=\"batcat --style=plain --color=always {}\" --bind shift-up:preview-page-up,shift-down:preview-page-down)"^M'
 bindkey -s '^f' 'nvim $(fzf)^M'
 bindkey -s '^h' 'zsh_history | $(fzf)^M'
 bindkey '^[[P' delete-char
