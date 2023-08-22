@@ -91,7 +91,11 @@ compinit
 autoload edit-command-line; zle -N edit-command-line
 
 # Speedy keys
-xset r rate 210 40
+if [[ $XDG_SESSION_TYPE = "xll" ]]
+then
+	xset r rate 210 40
+fi
+
 
 # Environment variables set everywhere
 export EDITOR="nvim"

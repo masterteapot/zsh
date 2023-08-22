@@ -52,8 +52,9 @@ alias fzff='print -z $(fdfind --type f --strip-cwd-prefix --hidden --exclude .gi
 alias fzfd='cd "$(fdfind --type d --strip-cwd-prefix --hidden --exclude .git | fzf)"'
 
 # FD aliases
-alias fd="fdfind"
-
+if [ -x "$(command -v fdfind)" ]; then
+	alias fd="fdfind"
+fi
 
 # Do a search through history
 alias hg='print -z $(sort ~/.config/zsh/.zsh_history | uniq -c | fzf +s --tac | sed -E "s/ *[0-9]*\*? *//")'
