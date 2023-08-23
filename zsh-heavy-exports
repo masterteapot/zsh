@@ -2,7 +2,7 @@
 
 export PATH="$PATH:./node_modules/.bin"
 export PATH="/home/jared/.cargo/bin:$PATH"
-
+export PATH=$PATH:/usr/local/go/bin
 
 # Init NVM
 export NVM_DIR="$HOME/.nvm"
