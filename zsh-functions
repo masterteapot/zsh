@@ -38,6 +38,11 @@ function csv_pretty {
 	cat "$@" | sed 's/,/ ,/g' | column -t -s, | less -S
 }
 
-function csv_cols {
+function csv_num_cols {
 	head -1 $1 | sed "s/[^$2]//g" | wc -c
 }
+
+function csv_col_names {
+	head --lines 1 $1 | sed "s/,/\n/g"
+}
+

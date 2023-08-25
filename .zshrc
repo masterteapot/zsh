@@ -63,7 +63,7 @@ fpath+=./completion
 # Key-bindings
 bindkey -s '^o' 'ranger^M'
 bindkey -s '^s' 'ncdu^M'
-bindkey -s '^b' 'nvim "$(rg --files --hidden | fzf --preview=\"batcat --style=plain --color=always {}\" --bind shift-up:preview-page-up,shift-down:preview-page-down)"^M'
+# bindkey -s '^b' 'nvim "$(rg --files --hidden | fzf --preview=\"batcat --style=plain --color=always {}\" --bind shift-up:preview-page-up,shift-down:preview-page-down)"^M'
 bindkey -s '^f' 'nvim $(fzf)^M'
 bindkey -s '^h' 'zsh_history | $(fzf)^M'
 bindkey '^[[P' delete-char
@@ -91,7 +91,11 @@ compinit
 autoload edit-command-line; zle -N edit-command-line
 
 # Speedy keys
-xset r rate 210 40
+if [[ $XDG_SESSION_TYPE = "xll" ]]
+then
+	xset r rate 210 40
+fi
+
 
 # Environment variables set everywhere
 export EDITOR="nvim"
