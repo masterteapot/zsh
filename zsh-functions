@@ -4,7 +4,7 @@ function zsh_add_file() {
 }
 
 function zsh_history() {
-    cat .zsh_history
+    cat ~/.zsh_history
 }
 
 function zsh_add_plugin() {
