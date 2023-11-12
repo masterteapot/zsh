@@ -102,6 +102,4 @@ export EDITOR="nvim"
 
 # For QT Themes
 export QT_QPA_PLATFORMTHEME=qt5ct
-
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
