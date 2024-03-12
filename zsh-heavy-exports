@@ -4,6 +4,9 @@ export PATH="$PATH:./node_modules/.bin"
 export PATH="/home/jared/.cargo/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin
 
+# opam configuration
+[[ ! -r /home/jared/.opam/opam-init/init.zsh ]] || source /home/jared/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
+
 # Init NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
