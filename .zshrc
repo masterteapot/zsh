@@ -1,6 +1,7 @@
 #!/bin/sh
 export ZDOTDIR=$HOME/.config/zsh
-export HISTFILE="$HOME/.zsh_history"
+export HISTFILE="$ZDOTDIR/.zsh_history"
+export PATH=/home/jared/.cargo/bin:$PATH
 
 setopt appendhistory
 
@@ -102,6 +103,4 @@ export EDITOR="nvim"
 
 # For QT Themes
 export QT_QPA_PLATFORMTHEME=qt5ct
-
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

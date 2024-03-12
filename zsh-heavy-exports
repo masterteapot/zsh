@@ -12,6 +12,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# Ocaml
+[[ ! -r /home/jared/.opam/opam-init/init.zsh ]] || source /home/jared/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
 
 # check for miniconda vs. anaconda3
 if [ -d "$HOME/miniconda3" ]; then
