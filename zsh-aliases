@@ -86,3 +86,6 @@ alias contracts="cd /var/www/contracts/ && nvim"
 alias wp-contracts-prod="~/.jaredbs/wp-contracts-prod.sh"
 alias wp-contracts-razer="~/.jaredbs/wp-contracts-razer.sh"
 alias wp-alshaya-prod="~/.jaredbs/wp-alshaya-prod.sh"
+
+# For work
+alias extreme="rg "pass" Nextcloud/Notes/HungerStation/Accesses.md"
