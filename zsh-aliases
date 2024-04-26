@@ -30,6 +30,11 @@ if [ -x "$(command -v exa)" ]; then
     alias ll="exa --long --group --header --accessed --icons --classify"
 fi
 
+# Better cat with colors
+if [ -x "$(command -v batcat)" ]; then
+    alias cat="batcat"
+fi
+
 # Delete things to the trash
 if [ -x "$(command -v trash)" ]; then
     alias dd="trash"
