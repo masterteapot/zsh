@@ -70,7 +70,7 @@ alias py-cloud="source ~/.venv/gpt-venv/bin/activate"
 
 # Clear the terminal
 alias cl="clear"
-alias cln="clear && echo '' && neofetch"
+alias cln="clear && echo '' && fastfetch"
 
 # Quick projects
 alias nvimrc='cd ~/.config/nvim/ && nvim'
