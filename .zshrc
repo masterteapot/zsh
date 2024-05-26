@@ -1,7 +1,7 @@
 #!/bin/sh
 export ZDOTDIR=$HOME/.config/zsh
 export HISTFILE="$ZDOTDIR/.zsh_history"
-export PATH=/home/jared/.cargo/bin:$PATH
+export PATH=$HOME/.cargo/bin:$PATH
 
 setopt appendhistory
 

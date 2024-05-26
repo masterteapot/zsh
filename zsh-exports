@@ -3,10 +3,9 @@ HISTSIZE=1000000
 SAVEHIST=1000000
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$HOME/.local/bin":$PATH
-export PATH="$PATH:/home/jared/.local/share/nvim/lsp_servers"
+export PATH="$PATH:$HOME/.local/share/nvim/lsp_servers"
 export MANPAGER='nvim +Man!'
 export MANWIDTH=999
-
 
 #export PATH="$PATH:./node_modules/.bin"
 #export PATH="/home/jared/.cargo/bin:$PATH"
