@@ -1,6 +1,6 @@
 #!/bin/bash
 function fzf_open() {
-    fdfind -t f -H --ignore | fzf -m --preview="bat --color=always --style=numbers --line-range=:500 {}" --bind=ctrl-space:toggle-preview | xargs -ro -d "\n" xdg-open 2>&-
+    fd -t f -H --ignore | fzf -m --preview="bat --color=always --style=numbers --line-range=:500 {}" --bind=ctrl-space:toggle-preview | xargs -ro -d "\n" xdg-open 2>&-
 }
 function fzf_cd() {
     cd $HOME && cd "$(fd -t d -H --ignore | fzf --preview="tree -L 1 {}" --bind="ctrl-space:toggle-preview")"

@@ -34,6 +34,10 @@ fi
 if [ -x "$(command -v batcat)" ]; then
     alias cat="batcat"
 fi
+# Better cat with colors
+if [ -x "$(command -v bat)" ]; then
+    alias cat="bat"
+fi
 
 # Delete things to the trash
 if [ -x "$(command -v trash)" ]; then
@@ -53,14 +57,15 @@ if [ -x "$(command -v lazygit)" ]; then
 	alias lg="lazygit"
 fi
 
-# FZF aliases
-alias fzff='print -z $(fdfind --type f --strip-cwd-prefix --hidden --exclude .git | fzf)'
-alias fzfd='cd "$(fdfind --type d --strip-cwd-prefix --hidden --exclude .git | fzf)"'
-
 # FD aliases
 if [ -x "$(command -v fdfind)" ]; then
 	alias fd="fdfind"
 fi
+
+# FZF aliases
+alias fzff='print -z $(fd --type f --strip-cwd-prefix --hidden --exclude .git | fzf)'
+alias fzfd='cd "$(fd --type d --strip-cwd-prefix --hidden --exclude .git | fzf)"'
+
 
 # Do a search through history
 alias hg='print -z $(sort ~/.config/zsh/.zsh_history | uniq -c | fzf +s --tac | sed -E "s/ *[0-9]*\*? *//")'
