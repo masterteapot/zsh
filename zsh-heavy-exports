@@ -2,7 +2,6 @@
 
 export PATH="$PATH:./node_modules/.bin"
 export PATH="$HOME/.cargo/bin:$PATH"
-export PATH=$PATH:/usr/local/go/bin
 
 # opam configuration
 [[ ! -r $HOME/.opam/opam-init/init.zsh ]] || source $HOME/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null

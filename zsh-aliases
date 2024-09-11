@@ -3,6 +3,7 @@ alias vi='nvim'
 alias g='lazygit'
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias python="python3"
+alias pm="python main.py"
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
