@@ -3,6 +3,7 @@ export ZDOTDIR=$HOME/.config/zsh
 export HISTFILE="$ZDOTDIR/.zsh_history"
 export PATH=/home/jared/.cargo/bin:$PATH
 export PATH="$PATH:/opt/nvim-linux64/bin"
+export PATH="$PATH:$HOME/.jaredbs"
 
 setopt appendhistory
 
