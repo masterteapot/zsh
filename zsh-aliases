@@ -30,6 +30,11 @@ if [ -x "$(command -v exa)" ]; then
     alias ll="exa --long --group --header --accessed --icons --classify"
 fi
 
+# Better dnf
+if [ -x "$(command -v dnf5)" ]; then
+    alias dnf="dnf5"
+fi
+
 # Better cat with colors
 if [ -x "$(command -v batcat)" ]; then
     alias cat="batcat"
@@ -53,14 +58,16 @@ if [ -x "$(command -v lazygit)" ]; then
 	alias lg="lazygit"
 fi
 
-# FZF aliases
-alias fzff='print -z $(fdfind --type f --strip-cwd-prefix --hidden --exclude .git | fzf)'
-alias fzfd='cd "$(fdfind --type d --strip-cwd-prefix --hidden --exclude .git | fzf)"'
-
 # FD aliases
 if [ -x "$(command -v fdfind)" ]; then
 	alias fd="fdfind"
 fi
+
+# FZF aliases
+alias fzff='print -z $(fd --type f --strip-cwd-prefix --hidden --exclude .git | fzf)'
+alias fzv='nvim -z $(fd --type f --strip-cwd-prefix --hidden --exclude .git | fzf)'
+alias fzfd='cd "$(fd --type d --strip-cwd-prefix --hidden --exclude .git | fzf)"'
+
 
 # Do a search through history
 alias hg='print -z $(sort ~/.config/zsh/.zsh_history | uniq -c | fzf +s --tac | sed -E "s/ *[0-9]*\*? *//")'
@@ -71,7 +78,7 @@ alias py-cloud="source ~/.venv/gpt-venv/bin/activate"
 # Clear the terminal
 alias cl="clear"
 alias cln="clear && echo '' && fastfetch -s \
-	Title:Separator:Break:OS:Host:Kernel:Uptime:Packages:Shell:Display:WM:Terminal:CPU:GPU:Memory:Disk:LocalIp:Break:Colors \
+	Title:Separator:Break:OS:Host:Kernel:Uptime:Packages:Shell:Display:WM:Terminal:CPU:GPU:Memory:Disk:LocalIp:Break:Colors:Break \
 	--disk-show-external false"
 
 # Quick projects
