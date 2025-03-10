@@ -1,8 +1,10 @@
 #!/bin/sh
 alias vi='nvim'
-alias g='lazygit'
+alias lg='lazygit'
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias python="python3"
+alias tv="swaymsg output HDMI-A-1 mode 3840x2160@120.000Hz"
+
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
