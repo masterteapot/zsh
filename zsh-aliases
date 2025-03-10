@@ -3,7 +3,9 @@ alias vi='nvim'
 alias lg='lazygit'
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
 alias python="python3"
-alias tv="swaymsg output HDMI-A-1 mode 3840x2160@120.000Hz"
+alias tv="swaymsg output enable HDMI-A-1 mode 3840x2160@120.000Hz"
+alias tv_on="swaymsg output enable HDMI-A-1 mode 3840x2160@120.000Hz"
+alias tv_off="swaymsg output HDMI-A-1 disable"
 
 
 # Colorize grep output (good for log files)
