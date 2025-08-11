@@ -10,6 +10,12 @@ alias tv_off="swaymsg output HDMI-A-1 disable"
 alias srn="sudo reboot now"
 alias ssn="sudo shutdown now"
 
+
+# Sway config settings
+alias sway_slow="swaymsg output eDP-1 mode 2560x1600@60Hz"
+alias sway_fast="swaymsg output eDP-1 mode 2560x1600@240Hz"
+alias sway_fast_low="swaymsg output eDP-1 mode 1920x1200@240Hz"
+
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
