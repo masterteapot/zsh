@@ -6,7 +6,11 @@ alias python="python3"
 alias tv="swaymsg output HDMI-A-1 enable mode 3840x2160@120.000Hz"
 alias tv_on="swaymsg output HDMI-A-1 enable mode 3840x2160@120.000Hz"
 alias tv_off="swaymsg output HDMI-A-1 disable"
+alias mc="mc -u"
 
+# For rebooting and shutting down
+alias srn="sudo reboot now"
+alias ssn="sudo shutdown now"
 
 # Colorize grep output (good for log files)
 alias grep='grep --color=auto'
@@ -32,6 +36,13 @@ if [ -x "$(command -v exa)" ]; then
     alias ls="exa"
     alias la="exa --long --all --group --header --accessed --icons --classify"
     alias ll="exa --long --group --header --accessed --icons --classify"
+fi
+
+# Better ls with colors
+if [ -x "$(command -v eza)" ]; then
+    alias ls="eza"
+    alias la="eza --long --all --group --header --accessed --icons --classify"
+    alias ll="eza --long --group --header --accessed --icons --classify"
 fi
 
 # Better dnf
