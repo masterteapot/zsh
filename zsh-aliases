@@ -98,8 +98,7 @@ alias py-cloud="source ~/.venv/gpt-venv/bin/activate"
 # Clear the terminal
 alias cl="clear"
 alias cln="clear && echo '' && fastfetch -s \
-	Title:Separator:Break:OS:Host:Kernel:Uptime:Packages:Shell:Display:WM:Terminal:CPU:GPU:Memory:Disk:LocalIp:Break:Colors:Break \
-	--disk-show-external false"
+	Title:Separator:Break:OS:Host:Kernel:Uptime:Packages:Shell:Display:WM:Terminal:CPU:GPU:Memory:Disk:LocalIp:Break:Colors:Break"
 
 # Quick projects
 alias nvimrc='cd ~/.config/nvim/ && nvim'
