@@ -6,10 +6,11 @@ alias python="python3"
 alias tv="swaymsg output HDMI-A-1 enable mode 3840x2160@120.000Hz"
 alias tv_on="swaymsg output HDMI-A-1 enable mode 3840x2160@120.000Hz"
 alias tv_off="swaymsg output HDMI-A-1 disable"
+alias mc="mc -u"
 
+# For rebooting and shutting down
 alias srn="sudo reboot now"
 alias ssn="sudo shutdown now"
-
 
 # Sway config settings
 alias sway_slow="swaymsg output eDP-1 mode 2560x1600@60Hz"
@@ -40,6 +41,13 @@ if [ -x "$(command -v exa)" ]; then
     alias ls="exa"
     alias la="exa --long --all --group --header --accessed --icons --classify"
     alias ll="exa --long --group --header --accessed --icons --classify"
+fi
+
+# Better ls with colors
+if [ -x "$(command -v eza)" ]; then
+    alias ls="eza"
+    alias la="eza --long --all --group --header --accessed --icons --classify"
+    alias ll="eza --long --group --header --accessed --icons --classify"
 fi
 
 # Better dnf
@@ -90,8 +98,7 @@ alias py-cloud="source ~/.venv/gpt-venv/bin/activate"
 # Clear the terminal
 alias cl="clear"
 alias cln="clear && echo '' && fastfetch -s \
-	Title:Separator:Break:OS:Host:Kernel:Uptime:Packages:Shell:Display:WM:Terminal:CPU:GPU:Memory:Disk:LocalIp:Break:Colors:Break \
-	--disk-show-external false"
+	Title:Separator:Break:OS:Host:Kernel:Uptime:Packages:Shell:Display:WM:Terminal:CPU:GPU:Memory:Disk:LocalIp:Break:Colors:Break"
 
 # Quick projects
 alias nvimrc='cd ~/.config/nvim/ && nvim'
