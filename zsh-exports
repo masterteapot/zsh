@@ -1,16 +1,20 @@
 #!/bin/sh
 HISTSIZE=1000000
 SAVEHIST=1000000
-export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:$HOME/go/bin
-export PATH=$PATH:$HOME/.local/share/zigup
-export PATH="$HOME/.local/bin":$PATH
-export PATH="$PATH:/home/jared/.local/share/nvim/lsp_servers"
-export PATH="$PATH:/home/jared/.local/share/zigup"
-export PATH="$PATH:/home/jared/Games/OpenMW"
+
+export ODIN_ROOT="$HOME/.local/share/odin"
+
+export PATH="/usr/local/go/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
+export PATH="$HOME/.local/share/zigup:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/share/nvim/lsp_servers:$PATH"
+export PATH="$HOME/.local/share/zigup:$PATH"
+export PATH="$HOME/Games/OpenMW:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.jaredbs:$PATH"
 export MANPAGER='nvim +Man!'
 export MANWIDTH=999
-
 
 #export PATH="$PATH:./node_modules/.bin"
 #export PATH="/home/jared/.cargo/bin:$PATH"
