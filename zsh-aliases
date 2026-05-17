@@ -107,6 +107,7 @@ alias zshrc="cd ~/.config/zsh/ && nvim"
 
 # Jblog
 alias jblog-watch="watchexec -e ml,dune,css,js -r -- dune exec jblog_ocaml"
+alias odin-watch="watchexec -e odin -r -- odin run ."
 
 # Blogging
 alias blog='cd ~/Website_Projects/jaredsblog/jaredsblog/'
