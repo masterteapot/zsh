@@ -67,7 +67,6 @@ if [ -x "$(command -v trash)" ]; then
     alias rm="trash -i"
 fi
 
-
 # Load heavy exports
 alias heavy='zsh_add_file "zsh-heavy-exports"'
 alias conda-load='zsh_add_file "zsh-heavy-exports"'
@@ -92,9 +91,6 @@ alias fzfd='cd "$(fd --type d --strip-cwd-prefix --hidden --exclude .git | fzf)"
 # Do a search through history
 alias hg='print -z $(sort ~/.config/zsh/.zsh_history | uniq -c | fzf +s --tac | sed -E "s/ *[0-9]*\*? *//")'
 
-# source gpt venv
-alias py-cloud="source ~/.venv/gpt-venv/bin/activate"
-
 # Clear the terminal
 alias cl="clear"
 alias cln="clear && echo '' && fastfetch -s \
@@ -108,20 +104,8 @@ alias zshrc="cd ~/.config/zsh/ && nvim"
 # Jblog
 alias jblog-watch="watchexec -e ml,dune,css,js -r -- dune exec jblog_ocaml"
 
-# Blogging
-alias blog='cd ~/Website_Projects/jaredsblog/jaredsblog/'
-alias django='source ~/.pyenv/django/bin/activate'
-alias jb-run='blog && django && python manage.py runserver'
-alias jb-tail='blog && django && python manage.py tailwind start'
-alias jb-vim='blog && django && nvim'
-alias jb-mark='blog && django && python scripts/copy_obsidian.py /home/jared/Nextcloud/Notes/Blog && python convert_markdown.py'
-
-# Quick export of testamentto
-alias wp="code /var/www/contracts/"
-alias contracts="cd /var/www/contracts/ && nvim"
-alias wp-contracts-prod="~/.jaredbs/wp-contracts-prod.sh"
-alias wp-contracts-razer="~/.jaredbs/wp-contracts-razer.sh"
-alias wp-alshaya-prod="~/.jaredbs/wp-alshaya-prod.sh"
+# Odin
+alias odin-watch="watchexec -e odin -r -- odin run ."
 
 # For work
 alias extreme="rg "pass" Nextcloud/Notes/HungerStation/Accesses.md"
