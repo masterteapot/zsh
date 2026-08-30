@@ -39,15 +39,15 @@ alias pscpu='ps auxf | sort -nr -k 3 | head -10'
 # Better ls with colors
 if [ -x "$(command -v exa)" ]; then
     alias ls="exa"
-    alias la="exa --long --all --group --header --accessed --icons --classify"
-    alias ll="exa --long --group --header --accessed --icons --classify"
+    alias la="exa --long --all --group --header --accessed --icons --classify=auto"
+    alias ll="exa --long --group --header --accessed --icons --classify=auto"
 fi
 
 # Better ls with colors
 if [ -x "$(command -v eza)" ]; then
     alias ls="eza"
-    alias la="eza --long --all --group --header --accessed --icons --classify"
-    alias ll="eza --long --group --header --accessed --icons --classify"
+    alias la="eza --long --all --group --header --accessed --icons --classify=auto"
+    alias ll="eza --long --group --header --accessed --icons --classify=auto"
 fi
 
 # Better dnf
