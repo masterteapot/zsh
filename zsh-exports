@@ -3,19 +3,43 @@ HISTSIZE=1000000
 SAVEHIST=1000000
 
 export ODIN_ROOT="$HOME/.local/share/odin"
-
-export PATH="/opt/nvim/bin:$PATH"
-export PATH="/usr/local/go/bin:$PATH"
-export PATH="$HOME/go/bin:$PATH"
-export PATH="$HOME/.local/share/zigup:$PATH"
-export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/.local/share/nvim/lsp_servers:$PATH"
-export PATH="$HOME/.local/share/zigup:$PATH"
-export PATH="$HOME/Games/OpenMW:$PATH"
-export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$HOME/.jaredbs:$PATH"
 export MANPAGER='nvim +Man!'
 export MANWIDTH=999
 
-#export PATH="$PATH:./node_modules/.bin"
-#export PATH="/home/jared/.cargo/bin:$PATH"
+# Dynamic PATH: prepend directories if they exist
+_extra_paths=(
+  "/opt/homebrew/bin"
+  "/opt/homebrew/opt/openjdk/bin"
+  "/opt/nvim/bin"
+  "/opt/nvim-linux64/bin"
+  "/usr/local/go/bin"
+  "$HOME/go/bin"
+  "$HOME/.cargo/bin"
+  "$HOME/.local/bin"
+  "$HOME/.opencode/bin"
+  "$HOME/.jaredbs"
+  "$HOME/.local/share/zigup"
+  "$HOME/.local/share/nvim/lsp_servers"
+  "$HOME/.local/share/nvim/mason/bin"
+  "$HOME/Games/OpenMW"
+)
+
+for dir in "${_extra_paths[@]}"; do
+  if [ -d "$dir" ]; then
+    case ":$PATH:" in
+      *":$dir:"*) ;;
+      *) PATH="$dir:$PATH" ;;
+    esac
+  fi
+done
+export PATH
+unset _extra_paths
+
+# macOS Homebrew Java Home
+if command -v brew >/dev/null 2>&1; then
+  _brew_jdk="$(brew --prefix openjdk 2>/dev/null)/libexec/openjdk.jdk/Contents/Home"
+  if [ -d "$_brew_jdk" ]; then
+    export JAVA_HOME="$_brew_jdk"
+  fi
+  unset _brew_jdk
+fi

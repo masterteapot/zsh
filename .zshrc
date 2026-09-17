@@ -106,4 +106,4 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # opencode
-export PATH=/home/jared/.opencode/bin:$PATH
+[ -d "$HOME/.opencode/bin" ] && export PATH="$HOME/.opencode/bin:$PATH"

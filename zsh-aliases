@@ -56,7 +56,9 @@ if [ -x "$(command -v dnf5)" ]; then
 fi
 
 # Better cat with colors
-if [ -x "$(command -v batcat)" ]; then
+if [ -x "$(command -v bat)" ]; then
+    alias cat="bat"
+elif [ -x "$(command -v batcat)" ]; then
     alias cat="batcat"
 fi
 
